@@ -1,0 +1,27 @@
+{
+  "tardis:tardis_mod": {
+    "criteria": {
+      "tardis_mod": "2024-01-05 17:32:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2024-01-05 17:34:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-01-05 17:32:10 +0000"
+    },
+    "done": false
+  },
+  "tardis:obtain_tardis": {
+    "criteria": {
+      "obtain_tardis": "2024-01-05 17:32:30 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 2586
+}

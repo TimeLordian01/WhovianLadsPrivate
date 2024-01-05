@@ -1,0 +1,103 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 1/5/24 5:58 PM
+Description: Rendering overlay
+
+java.lang.OutOfMemoryError: Rendering overlay
+	at org.lwjgl.system.MemoryUtil.nmemReallocChecked(MemoryUtil.java:484) ~[lwjgl-3.2.2.jar:build 10] {}
+	at org.lwjgl.system.MemoryUtil.memRealloc(MemoryUtil.java:517) ~[lwjgl-3.2.2.jar:build 10] {}
+	at net.minecraft.client.renderer.texture.PngSizeInfo$ReaderBuffer.func_195688_b(SourceFile:127) ~[forge-1.16.5-36.2.29_mapped_snapshot_20201028-1.16.3.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.texture.PngSizeInfo$ReaderBuffer.func_195683_b(SourceFile:146) ~[forge-1.16.5-36.2.29_mapped_snapshot_20201028-1.16.3.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.texture.PngSizeInfo$Reader.func_195682_a(SourceFile:53) ~[forge-1.16.5-36.2.29_mapped_snapshot_20201028-1.16.3.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at org.lwjgl.stb.STBIReadCallbackI.callback(STBIReadCallbackI.java:35) ~[lwjgl-stb-3.2.2.jar:build 10] {}
+	at org.lwjgl.stb.STBImage.nstbi_info_from_callbacks(Native Method) ~[lwjgl-stb-3.2.2.jar:build 10] {}
+	at org.lwjgl.stb.STBImage.stbi_info_from_callbacks(STBImage.java:817) ~[lwjgl-stb-3.2.2.jar:build 10] {}
+	at net.minecraft.client.renderer.texture.PngSizeInfo.<init>(SourceFile:40) ~[forge:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.texture.AtlasTexture.func_224738_a(AtlasTexture.java:153) ~[forge:?] {re:classloading,pl:runtimedistcleaner:A}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run$$$capture(CompletableFuture.java:1640) ~[?:1.8.0_391] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java) ~[?:1.8.0_391] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1632) ~[?:1.8.0_391] {}
+	at java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:289) ~[?:1.8.0_391] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java) ~[?:1.8.0_391] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1067) ~[?:1.8.0_391] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1703) ~[?:1.8.0_391] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:172) ~[?:1.8.0_391] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at org.lwjgl.system.MemoryUtil.nmemReallocChecked(MemoryUtil.java:484) ~[lwjgl-3.2.2.jar:build 10] {}
+	at org.lwjgl.system.MemoryUtil.memRealloc(MemoryUtil.java:517) ~[lwjgl-3.2.2.jar:build 10] {}
+	at net.minecraft.client.renderer.texture.PngSizeInfo$ReaderBuffer.func_195688_b(SourceFile:127) ~[forge:?] {re:classloading,pl:runtimedistcleaner:A}
+-- Overlay render details --
+Details:
+	Overlay name: net.minecraft.client.gui.ResourceLoadProgressGui
+Stacktrace:
+	at net.minecraft.client.renderer.GameRenderer.updateCameraAndRender(GameRenderer.java:484) ~[forge-1.16.5-36.2.29_mapped_snapshot_20201028-1.16.3.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:977) ~[forge-1.16.5-36.2.29_mapped_snapshot_20201028-1.16.3.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:607) ~[forge-1.16.5-36.2.29_mapped_snapshot_20201028-1.16.3.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) ~[forge-1.16.5-36.2.29_mapped_snapshot_20201028-1.16.3.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_391] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_391] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_391] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_391] {}
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:52) ~[forge-1.16.5-36.2.29_mapped_snapshot_20201028-1.16.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?] {}
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:108) [forge-1.16.5-36.2.29_mapped_snapshot_20201028-1.16.3.jar:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Windows 10 (x86) version 10.0
+	Java Version: 1.8.0_391, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode), Oracle Corporation
+	Memory: 829753112 bytes (791 MB) / 1354235904 bytes (1291 MB) up to 1354235904 bytes (1291 MB)
+	CPUs: 12
+	JVM Flags: 3 total; -Xms1336m -Xmx1336m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	ModLauncher: 8.1.3+8.1.3+main-8.1.x.c94d18ec
+	ModLauncher launch target: fmluserdevclient
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/mixin-0.8.4.jar mixin PLUGINSERVICE 
+		/eventbus-4.0.0.jar eventbus PLUGINSERVICE 
+		/forge-1.16.5-36.2.29_mapped_snapshot_20201028-1.16.3-launcher.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.29_mapped_snapshot_20201028-1.16.3-launcher.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.5-36.2.29_mapped_snapshot_20201028-1.16.3-launcher.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.29_mapped_snapshot_20201028-1.16.3-launcher.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.4.jar mixin TRANSFORMATIONSERVICE 
+		/forge-1.16.5-36.2.29_mapped_snapshot_20201028-1.16.3-launcher.jar fml TRANSFORMATIONSERVICE 
+	FML: 36.2
+	Forge: net.minecraftforge:36.2.29
+	FML Language Providers: 
+		javafml@36.2
+		minecraft@1
+	Mod List: 
+		client-extra.jar                                  |Minecraft                     |minecraft                     |1.16.5              |ENQUEUE_IM|Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		TardisMod-1-14-1.5.4_mapped_snapshot_20201028-1.16|Tardis Mod                    |tardis                        |1.5.4               |ENQUEUE_IM|Manifest: NOSIGNATURE
+		main                                              |More Time Capsules Mod        |whovianlads                   |2.0                 |ENQUEUE_IM|Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.29_mapped_snapshot_20201028-1.16|Forge                         |forge                         |36.2.29             |ENQUEUE_IM|Manifest: NOSIGNATURE
+		jei-1.16.4-7.6.0.62_mapped_snapshot_20201028-1.16.|Just Enough Items             |jei                           |7.6.0.62            |ENQUEUE_IM|Manifest: NOSIGNATURE
+	Crash Report UUID: 5a88f90b-e9ed-4b2c-ba06-de09dc4cb532
+	Launched Version: MOD_DEV
+	Backend library: LWJGL version 3.2.2 build 10
+	Backend API: NVIDIA GeForce RTX 3060/PCIe/SSE2 GL version 4.6.0 NVIDIA 546.29, NVIDIA Corporation
+	GL Caps: Using framebuffer using OpenGL 3.0
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: 
+	Current Language: English (US)
+	CPU: 12x 11th Gen Intel(R) Core(TM) i5-11400 @ 2.60GHz

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9388ab58-dde3-43ae-ba4e-b9dd9a3d9337" name="Default Changelist" comment="Texture Variants and Console Fixes" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="PARALLEL_COMPILATION" value="false" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WhovianLads" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WhovianLads" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WhovianLads" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="1ufAVibXL28A1wvAPS908uQmwxQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.runClient.executor": "Debug",
+    "Gradle.Build MoreTimeCapsules-1.16.executor": "Run",
+    "Gradle.Build WhovianLads.executor": "Run",
+    "Gradle.C:/Users/haydn/IdeaProjects/MoreTimeCapsules-1.16 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor": "Run",
+    "Gradle.C:/Users/haydn/IdeaProjects/WhovianLads [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor": "Run",
+    "Gradle.MoreTimeCapsules-1.16 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor": "Run",
+    "Gradle.MoreTimeCapsules-1.16 [:prepareRunClient].executor": "Run",
+    "Gradle.MoreTimeCapsules-1.16 [buildEnvironment].executor": "Run",
+    "Gradle.MoreTimeCapsules-1.16 [cleanEclipse].executor": "Run",
+    "Gradle.MoreTimeCapsules-1.16 [dependencies].executor": "Run",
+    "Gradle.MoreTimeCapsules-1.16 [downloadAssets].executor": "Run",
+    "Gradle.MoreTimeCapsules-1.16 [genIntellijRuns].executor": "Run",
+    "Gradle.MoreTimeCapsules-1.16 [prepareRunClient].executor": "Run",
+    "Gradle.MoreTimeCapsules-1.16 [runClient].executor": "Debug",
+    "Gradle.MoreTimeCapsulesMod-1.16 [genIntellijRuns].executor": "Run",
+    "Gradle.MoreTimeCapsulesMod-1.16 [runClient].executor": "Debug",
+    "Gradle.WhovianLads [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor": "Run",
+    "Gradle.WhovianLads [:prepareRunClient].executor": "Run",
+    "Gradle.WhovianLads [build].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "dev",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/haydn/IdeaProjects/WhovianLads/src/main/resources/assets/whovianlads/textures/exteriors/wardrobe",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\textures\exteriors\wardrobe" />
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\java\com\thevale\whovianlads\client\models\interiordoors" />
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\java\com\thevale\whovianlads\client\models\exteriors" />
+      <recent name="C:\Users\1zaia\OneDrive\Documents\GitHub\MoreTimeCapsules-1.16\src\main\java\com\thevale\moretimecapsulesmod\client\models\consoles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\textures\exteriors" />
+      <recent name="C:\Users\1zaia\OneDrive\Documents\GitHub\MoreTimeCapsules-1.16\src\main\resources\assets\moretimecapsulesmod\sounds\tardis" />
+      <recent name="C:\Users\1zaia\OneDrive\Documents\GitHub\MoreTimeCapsules-1.16\src\main\resources\assets\moretimecapsulesmod\textures\gui\exteriors" />
+      <recent name="C:\Users\1zaia\OneDrive\Documents\GitHub\MoreTimeCapsules-1.16\src\main\resources\assets\moretimecapsulesmod\textures\interiordoor" />
+      <recent name="C:\Users\haydn\Desktop\MoDDING\MoreTimeCapsulesMod-1.16\src\main\java\com\thevale\moretimecapsulesmod\client\models\interiordoors" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.thevale.whovianlads.client.models.interiordoors" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.WhovianLads [build]">
+    <configuration name="MoreTimeCapsules-1.16 [buildEnvironment]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildEnvironment" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MoreTimeCapsules-1.16 [genIntellijRuns]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="genIntellijRuns" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MoreTimeCapsules-1.16 [prepareRunClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="prepareRunClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MoreTimeCapsules-1.16 [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="WhovianLads [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.runClient" />
+      <item itemvalue="Application.runData" />
+      <item itemvalue="Application.runServer" />
+      <item itemvalue="Gradle.WhovianLads [build]" />
+      <item itemvalue="Gradle.MoreTimeCapsules-1.16 [buildEnvironment]" />
+      <item itemvalue="Gradle.MoreTimeCapsules-1.16 [genIntellijRuns]" />
+      <item itemvalue="Gradle.MoreTimeCapsules-1.16 [runClient]" />
+      <item itemvalue="Gradle.MoreTimeCapsules-1.16 [prepareRunClient]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.WhovianLads [build]" />
+        <item itemvalue="Gradle.MoreTimeCapsules-1.16 [genIntellijRuns]" />
+        <item itemvalue="Gradle.MoreTimeCapsules-1.16 [runClient]" />
+        <item itemvalue="Gradle.MoreTimeCapsules-1.16 [buildEnvironment]" />
+        <item itemvalue="Gradle.MoreTimeCapsules-1.16 [prepareRunClient]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9388ab58-dde3-43ae-ba4e-b9dd9a3d9337" name="Default Changelist" comment="" />
+      <created>1625046299580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625046299580</updated>
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1625109924508</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625109924508</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1625111379094</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625111379094</updated>
+    </task>
+    <task id="LOCAL-00003" summary="broke">
+      <created>1625171027232</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625171027232</updated>
+    </task>
+    <task id="LOCAL-00004" summary="broke">
+      <created>1625174043152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625174043152</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new tt_capsule, and a lot of other shit">
+      <created>1625188918732</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625188918733</updated>
+    </task>
+    <task id="LOCAL-00006" summary="texture variants might work? ive no idea">
+      <created>1625194129881</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625194129881</updated>
+    </task>
+    <task id="LOCAL-00007" summary="odd stuff happened idk">
+      <created>1625194807722</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1625194807722</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="test" />
+    <MESSAGE value="broke" />
+    <MESSAGE value="new tt_capsule, and a lot of other shit" />
+    <MESSAGE value="texture variants might work? ive no idea" />
+    <MESSAGE value="odd stuff happened idk" />
+    <option name="LAST_COMMIT_MESSAGE" value="odd stuff happened idk" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: whovianlads
+Specification-Vendor: whovianladssareus
+Specification-Version: 1
+Implementation-Title: WhovianLads
+Implementation-Version: 1.0
+Implementation-Vendor: whovianladssareus
+Implementation-Timestamp: 2024-01-05T21:02:48+0000
+
