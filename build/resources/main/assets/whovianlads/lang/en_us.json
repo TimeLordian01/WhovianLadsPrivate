@@ -1,5 +1,5 @@
 {
-  "texvar.whovianlads.tardis.common.normal": "Acacia Wood",
+  "texvar.whovianlads.wardrobe.acacia": "Acacia Wood",
   "texvar.whovianlads.wardrobe.birch": "Birch Wood",
   "texvar.whovianlads.wardrobe.crimson": "Crimson Wood",
   "texvar.whovianlads.wardrobe.dark_oak": "Dark Oak Wood",
@@ -11,7 +11,9 @@
   "texvar.whovianlads.wardrobe.spruce_stone": "Stone Brick x Spruce Wood",
   "texvar.whovianlads.wardrobe.warped": "Warped Wood",
 
+  "texvar.whovianlads.brackolin.normal": "Clean",
 
-  "texvar.whovianlads.tardis.consoles.common.normal": "Varnished",
+
+  "texvar.whovianlads.console.vale.normal": "Normal",
   "texvar.whovianlads.console.vale.purple": "Spacetime"
 }

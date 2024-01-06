@@ -14,18 +14,16 @@ import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.vector.Vector3f;
+import net.tardis.mod.cap.Capabilities;
 import net.tardis.mod.client.models.interiordoors.IInteriorDoorRenderer;
 import net.tardis.mod.client.renderers.boti.BOTIRenderer;
 import net.tardis.mod.client.renderers.boti.PortalInfo;
-import net.tardis.mod.client.renderers.exteriors.ExteriorRenderer;
-import net.tardis.mod.client.renderers.exteriors.TrunkExteriorRenderer;
+import net.tardis.mod.client.renderers.entity.DoorRenderer;
 import net.tardis.mod.entity.DoorEntity;
 import net.tardis.mod.enums.EnumDoorState;
-import net.tardis.mod.enums.EnumMatterState;
 import net.tardis.mod.helper.TardisHelper;
 import net.tardis.mod.helper.WorldHelper;
 import net.tardis.mod.tileentities.ConsoleTile;
-import net.tardis.mod.tileentities.exteriors.ExteriorTile;
 
 public class WardrobeInteriorDoor extends EntityModel<Entity> implements IInteriorDoorRenderer {
 	private final ModelRenderer Shell;
@@ -96,7 +94,7 @@ public class WardrobeInteriorDoor extends EntityModel<Entity> implements IInteri
 		LeftDoor.render(matrixStack, buffer, packedLight, packedOverlay);
 		Shell.render(matrixStack, buffer, packedLight, packedOverlay);
 		RightDoor.render(matrixStack, buffer, packedLight, packedOverlay);
-		BOTI.render(matrixStack, buffer, packedLight, packedOverlay);
+		//BOTI.render(matrixStack, buffer, packedLight, packedOverlay);
 		matrixStack.pop();
 	}
 
@@ -106,9 +104,41 @@ public class WardrobeInteriorDoor extends EntityModel<Entity> implements IInteri
 	}
 
 	@Override
-	public void renderBoti(DoorEntity doorEntity, MatrixStack matrixStack, IVertexBuilder iVertexBuilder, int i, int i1) {
+	public void renderBoti(DoorEntity door, MatrixStack matrixStack, IVertexBuilder buffer, int packedLight,
+						   int packedOverlay) {
+		if(Minecraft.getInstance().world != null && door.getOpenState() != EnumDoorState.CLOSED){
+			Minecraft.getInstance().world.getCapability(Capabilities.TARDIS_DATA).ifPresent(data -> {
+				matrixStack.push();
+				PortalInfo info = new PortalInfo();
+				info.setPosition(door.getPositionVec());
+				info.setWorldShell(data.getBotiWorld());
 
+				info.setTranslate(matrix -> {
+
+					matrix.scale(1.1f, 1.1f, 1.2f);
+					matrix.translate(0.025, 0, 0);
+					DoorRenderer.applyTranslations(matrix, door.rotationYaw - 180, door.getHorizontalFacing());
+				});
+				info.setTranslatePortal(matrix -> {
+					matrix.rotate(Vector3f.ZN.rotationDegrees(180));
+					matrix.rotate(Vector3f.YP.rotationDegrees(WorldHelper.getAngleFromFacing(data.getBotiWorld().getPortalDirection())));
+					matrix.translate(-0.5, -1.75, -0.5);
+				});
+
+				info.setRenderPortal((matrix, impl) -> {
+					matrix.push();
+					matrix.translate(-0.05, -0.2, -0.5f);
+					matrix.scale(1.1F, 1.1F, 1.1F);
+					this.BOTI.render(matrix, impl.getBuffer(RenderType.getEntityCutout(this.getTexture())), packedLight, packedOverlay);
+					matrix.pop();
+				});
+
+				BOTIRenderer.addPortal(info);
+				matrixStack.pop();
+			});
+		}
 	}
+
 
 	@Override
 	public ResourceLocation getTexture() {

@@ -1,5 +1,6 @@
 package com.thevale.whovianlads.registry;
 
+import com.thevale.whovianlads.util.EnumDoorTypes;
 import com.thevale.whovianlads.whovianlads;
 import com.thevale.whovianlads.blocks.ValeBlocks;
 import com.thevale.whovianlads.client.models.interiordoors.*;
@@ -8,7 +9,6 @@ import com.thevale.whovianlads.client.renders.consoles.SmithConsoleRender;
 import com.thevale.whovianlads.client.renders.consoles.ValeConsoleRender;
 import com.thevale.whovianlads.client.renders.exteriors.*;
 import com.thevale.whovianlads.tileentities.*;
-import com.thevale.whovianlads.util.EnumDoorTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.api.distmarker.Dist;
@@ -31,14 +31,21 @@ public class ValeModelRegistry {
             //Exteriors
             RenderTypeLookup.setRenderLayer(ValeBlocks.exterior_wardrobe.get(), RenderType.getTranslucent());
             RenderTypeLookup.setRenderLayer(ValeBlocks.exterior_streetside.get(), RenderType.getTranslucent());
+            RenderTypeLookup.setRenderLayer(ValeBlocks.exterior_brackolin.get(), RenderType.getTranslucent());
+            RenderTypeLookup.setRenderLayer(ValeBlocks.exterior_rani.get(), RenderType.getTranslucent());
                 });
 
         //ClientRegistry
         //Exteriors
         ClientRegistry.bindTileEntityRenderer(ValeTiles.exterior_wardrobe.get(), WardrobeRender::new);
             EnumDoorTypes.WARDROBE.setInteriorDoorModel(new WardrobeInteriorDoor());
+        ClientRegistry.bindTileEntityRenderer(ValeTiles.exterior_rani.get(), RaniRender::new);
+        EnumDoorTypes.RANI.setInteriorDoorModel(new RaniInteriorDoor());
         ClientRegistry.bindTileEntityRenderer(ValeTiles.exterior_streetside.get(), StreetsideRender::new);
             EnumDoorTypes.STREETSIDE.setInteriorDoorModel(new StreetsideInteriorDoor());
+        ClientRegistry.bindTileEntityRenderer(ValeTiles.exterior_brackolin.get(), BrackolinRender::new);
+             EnumDoorTypes.BRACKOLIN.setInteriorDoorModel(new BrackolinInteriorDoor());
+
         //Consoles
         ClientRegistry.bindTileEntityRenderer(ValeTiles.console_vale.get(), ValeConsoleRender::new);
         ClientRegistry.bindTileEntityRenderer(ValeTiles.console_coral2.get(), CoralConsoleRender::new);

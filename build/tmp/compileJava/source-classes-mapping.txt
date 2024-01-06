@@ -25,6 +25,8 @@ com/thevale/whovianlads/texturevariants/ConsoleTextureVariants.java
  com.thevale.whovianlads.texturevariants.ConsoleTextureVariants
 com/thevale/whovianlads/consoles/VConsoles.java
  com.thevale.whovianlads.consoles.VConsoles
+com/thevale/whovianlads/client/renders/exteriors/BrackolinRender.java
+ com.thevale.whovianlads.client.renders.exteriors.BrackolinRender
 com/thevale/whovianlads/client/models/exteriors/WardrobeExterior.java
  com.thevale.whovianlads.client.models.exteriors.WardrobeExterior
  com.thevale.whovianlads.client.models.exteriors.WardrobeExterior$1
@@ -34,6 +36,9 @@ com/thevale/whovianlads/client/models/consoles/SmithConsole.java
  com.thevale.whovianlads.client.models.consoles.SmithConsole
 com/thevale/whovianlads/client/models/consoles/CoralConsole.java
  com.thevale.whovianlads.client.models.consoles.CoralConsole
+com/thevale/whovianlads/client/models/interiordoors/BrackolinInteriorDoor.java
+ com.thevale.whovianlads.client.models.interiordoors.BrackolinInteriorDoor
+ com.thevale.whovianlads.client.models.interiordoors.BrackolinInteriorDoor$1
 com/thevale/whovianlads/items/ValeItems.java
  com.thevale.whovianlads.items.ValeItems
 com/thevale/whovianlads/client/renders/consoles/SmithConsoleRender.java
@@ -50,11 +55,15 @@ com/thevale/whovianlads/tileentities/consoles/ValeConsoleTile.java
  com.thevale.whovianlads.tileentities.consoles.ValeConsoleTile
 com/thevale/whovianlads/registry/ValeConsoleRegistry.java
  com.thevale.whovianlads.registry.ValeConsoleRegistry
-com/thevale/whovianlads/registry/ValeModelRegistry.java
- com.thevale.whovianlads.registry.ValeModelRegistry
-com/thevale/whovianlads/client/models/interiordoors/WardrobeInteriorDoor.java
- com.thevale.whovianlads.client.models.interiordoors.WardrobeInteriorDoor
- com.thevale.whovianlads.client.models.interiordoors.WardrobeInteriorDoor$1
+com/thevale/whovianlads/client/renders/exteriors/WardrobeRender.java
+ com.thevale.whovianlads.client.renders.exteriors.WardrobeRender
+com/thevale/whovianlads/registry/ValeExteriorRegistry.java
+ com.thevale.whovianlads.registry.ValeExteriorRegistry
+com/thevale/whovianlads/client/renders/exteriors/RaniRender.java
+ com.thevale.whovianlads.client.renders.exteriors.RaniRender
+com/thevale/whovianlads/client/models/exteriors/BrackolinExterior.java
+ com.thevale.whovianlads.client.models.exteriors.BrackolinExterior
+ com.thevale.whovianlads.client.models.exteriors.BrackolinExterior$1
 com/thevale/whovianlads/client/models/consoles/ValeConsoleModel.java
  com.thevale.whovianlads.client.models.consoles.ValeConsoleModel
 com/thevale/whovianlads/texturevariants/TextureVariants.java
@@ -62,11 +71,24 @@ com/thevale/whovianlads/texturevariants/TextureVariants.java
 com/thevale/whovianlads/whovianlads.java
  com.thevale.whovianlads.whovianlads
  com.thevale.whovianlads.whovianlads$RegistryEvents
+com/thevale/whovianlads/client/models/exteriors/RaniExterior.java
+ com.thevale.whovianlads.client.models.exteriors.RaniExterior
+ com.thevale.whovianlads.client.models.exteriors.RaniExterior$1
+com/thevale/whovianlads/tileentities/BrackolinTile.java
+ com.thevale.whovianlads.tileentities.BrackolinTile
+ com.thevale.whovianlads.tileentities.BrackolinTile$1
 com/thevale/whovianlads/client/guis/monitors/CoralMonitorScreen.java
  com.thevale.whovianlads.client.guis.monitors.CoralMonitorScreen
+com/thevale/whovianlads/tileentities/RaniTile.java
+ com.thevale.whovianlads.tileentities.RaniTile
+ com.thevale.whovianlads.tileentities.RaniTile$1
+com/thevale/whovianlads/client/models/interiordoors/RaniInteriorDoor.java
+ com.thevale.whovianlads.client.models.interiordoors.RaniInteriorDoor
+ com.thevale.whovianlads.client.models.interiordoors.RaniInteriorDoor$1
 com/thevale/whovianlads/tileentities/consoles/CoralConsoleTile.java
  com.thevale.whovianlads.tileentities.consoles.CoralConsoleTile
-com/thevale/whovianlads/registry/ValeExteriorRegistry.java
- com.thevale.whovianlads.registry.ValeExteriorRegistry
-com/thevale/whovianlads/client/renders/exteriors/WardrobeRender.java
- com.thevale.whovianlads.client.renders.exteriors.WardrobeRender
+com/thevale/whovianlads/registry/ValeModelRegistry.java
+ com.thevale.whovianlads.registry.ValeModelRegistry
+com/thevale/whovianlads/client/models/interiordoors/WardrobeInteriorDoor.java
+ com.thevale.whovianlads.client.models.interiordoors.WardrobeInteriorDoor
+ com.thevale.whovianlads.client.models.interiordoors.WardrobeInteriorDoor$1

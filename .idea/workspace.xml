@@ -58,7 +58,7 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/WhovianLadsPrivate" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -97,34 +97,39 @@
     "Gradle.MoreTimeCapsulesMod-1.16 [runClient].executor": "Debug",
     "Gradle.WhovianLads [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor": "Run",
     "Gradle.WhovianLads [:prepareRunClient].executor": "Run",
-    "Gradle.WhovianLads [build].executor": "Run",
+    "Gradle.WhovianLads [build].executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/haydn/IdeaProjects/WhovianLads/src/main/resources/assets/whovianlads/textures/exteriors/wardrobe",
+    "last_opened_file_path": "C:/Users/haydn/IdeaProjects/WhovianLads/src/main/resources/assets/whovianlads/blockstates",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\textures\exteriors\wardrobe" />
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\blockstates" />
       <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\java\com\thevale\whovianlads\client\models\interiordoors" />
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\textures\exteriors\wardrobe" />
       <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\java\com\thevale\whovianlads\client\models\exteriors" />
       <recent name="C:\Users\1zaia\OneDrive\Documents\GitHub\MoreTimeCapsules-1.16\src\main\java\com\thevale\moretimecapsulesmod\client\models\consoles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\java\com\thevale\whovianlads\client\models\interiordoors" />
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\textures\exteriors\Rani" />
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\java\com\thevale\whovianlads\client\models\exteriors" />
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\textures\exteriors\wardrobe" />
       <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\textures\exteriors" />
-      <recent name="C:\Users\1zaia\OneDrive\Documents\GitHub\MoreTimeCapsules-1.16\src\main\resources\assets\moretimecapsulesmod\sounds\tardis" />
-      <recent name="C:\Users\1zaia\OneDrive\Documents\GitHub\MoreTimeCapsules-1.16\src\main\resources\assets\moretimecapsulesmod\textures\gui\exteriors" />
-      <recent name="C:\Users\1zaia\OneDrive\Documents\GitHub\MoreTimeCapsules-1.16\src\main\resources\assets\moretimecapsulesmod\textures\interiordoor" />
-      <recent name="C:\Users\haydn\Desktop\MoDDING\MoreTimeCapsulesMod-1.16\src\main\java\com\thevale\moretimecapsulesmod\client\models\interiordoors" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.thevale.whovianlads.client.models.interiordoors" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thevale.whovianlads.client.renders.exteriors" />
+      <recent name="com.thevale.whovianlads.tileentities" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.WhovianLads [build]">
+  <component name="RunManager" selected="Application.runClient">
     <configuration name="MoreTimeCapsules-1.16 [buildEnvironment]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />

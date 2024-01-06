@@ -7,7 +7,6 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.thevale.whovianlads.util.EnumDoorTypes;
 import net.minecraft.client.renderer.model.ModelRenderer;
-import net.minecraft.entity.Entity;
 import net.tardis.mod.client.models.exteriors.ExteriorModel;
 import net.tardis.mod.enums.EnumDoorState;
 import net.tardis.mod.tileentities.exteriors.ExteriorTile;
@@ -149,14 +148,8 @@ public class StreetsideExterior extends ExteriorModel {
 		Base.setTextureOffset(0, 0).addBox(-38.0F, -4.0F, 0.0F, 38.0F, 4.0F, 38.0F, 0.0F, false);
 	}
 
-
 	@Override
-	public void setRotationAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch){
-		//previously the render function, render code was moved to a method below
-	}
-
-	@Override
-	public void render(ExteriorTile tile, float v, MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float v1) {
+	public void renderBones(ExteriorTile tile, float v, MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float v1) {
 		EnumDoorState state = tile.getOpen();
 		matrixStack.push();
 		matrixStack.translate(0.0D, 0.44D, 0.0D);
@@ -198,11 +191,6 @@ public class StreetsideExterior extends ExteriorModel {
 
 	@Override
 	public void render(MatrixStack matrixStackIn, IVertexBuilder bufferIn, int packedLightIn, int packedOverlayIn, float red, float green, float blue, float alpha) {
-
-	}
-
-	@Override
-	public void renderBones(ExteriorTile exteriorTile, float v, MatrixStack matrixStack, IVertexBuilder iVertexBuilder, int i, int i1, float v1) {
 
 	}
 }

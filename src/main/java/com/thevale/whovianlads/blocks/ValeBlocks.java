@@ -19,13 +19,24 @@ public class ValeBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, whovianlads.MODID);
 
     //Exteriors
-    public static RegistryObject<Block> exterior_wardrobe = register("exterior_wardrobe", () -> setUpBlock(new ExteriorBlock()), false);
-    public static RegistryObject<Block> exterior_streetside = register("exterior_streetside", () -> setUpBlock(new ExteriorBlock()), false);
+    public static RegistryObject<Block> exterior_wardrobe = register("exterior_wardrobe",
+            () -> setUpBlock(new ExteriorBlock()), false);
+    public static RegistryObject<Block> exterior_streetside = register("exterior_streetside",
+            () -> setUpBlock(new ExteriorBlock()), false);
+    public static RegistryObject<Block> exterior_brackolin = register("exterior_brackolin",
+            () -> setUpBlock(new ExteriorBlock()), false);
+    public static RegistryObject<Block> exterior_rani = register("exterior_rani",
+            () -> setUpBlock(new ExteriorBlock()), false);
+
     //Consoles
-    public static RegistryObject<Block> console_vale = register("console_vale", () -> setUpBlock(new VConsoleBlock()), false);
-    public static RegistryObject<Block> console_coral2 = register("console_coral2", () -> setUpBlock(new VConsoleBlock()), false);
-    public static RegistryObject<Block> console_smith = register("console_smith", () -> setUpBlock(new VConsoleBlock()), false);
-    public static RegistryObject<Block> console_newcoral = register("console_newcoral", () -> setUpBlock(new VConsoleBlock()), false);
+    public static RegistryObject<Block> console_vale = register("console_vale",
+            () -> setUpBlock(new VConsoleBlock()), false);
+    public static RegistryObject<Block> console_coral2 = register("console_coral2",
+            () -> setUpBlock(new VConsoleBlock()), false);
+    public static RegistryObject<Block> console_smith = register("console_smith",
+            () -> setUpBlock(new VConsoleBlock()), false);
+    public static RegistryObject<Block> console_newcoral = register("console_newcoral",
+            () -> setUpBlock(new VConsoleBlock()), false);
 
 
     private static Block setUpBlock(Block block) {

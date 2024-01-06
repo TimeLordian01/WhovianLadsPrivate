@@ -12,7 +12,7 @@ import net.tardis.mod.client.renderers.exteriors.ExteriorRenderer;
 import net.tardis.mod.misc.WorldText;
 
 public class WardrobeRender extends ExteriorRenderer<WardrobeTile> {
-    public static ResourceLocation TEXTURE = new ResourceLocation("whovianlads", "textures/exteriors/acacia_exterior.png");
+    public static ResourceLocation TEXTURE = new ResourceLocation("whovianlads", "textures/exteriors/wardrobe/acacia_exterior.png");
     public static WardrobeExterior MODEL = new WardrobeExterior();
     public static WorldText TEXT = new WorldText(0.87F, 0.125F, 0.015F, 0);
 

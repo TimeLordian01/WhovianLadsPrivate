@@ -18,7 +18,6 @@ import net.tardis.mod.entity.DoorEntity;
 import net.tardis.mod.enums.EnumDoorState;
 import net.tardis.mod.helper.TardisHelper;
 import net.tardis.mod.tileentities.ConsoleTile;
-import net.tardis.mod.tileentities.exteriors.ExteriorTile;
 
 public class StreetsideInteriorDoor extends EntityModel<Entity> implements IInteriorDoorRenderer {
 	private final ModelRenderer Posts;
