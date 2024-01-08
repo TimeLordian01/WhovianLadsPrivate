@@ -15,5 +15,7 @@
 
 
   "texvar.whovianlads.console.vale.normal": "Normal",
-  "texvar.whovianlads.console.vale.purple": "Spacetime"
+  "texvar.whovianlads.console.vale.purple": "Spacetime",
+
+  "item.whovianlads.tezarak_coin" : "Tezerak Coin"
 }

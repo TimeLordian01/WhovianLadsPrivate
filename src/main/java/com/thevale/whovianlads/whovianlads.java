@@ -1,6 +1,7 @@
 package com.thevale.whovianlads;
 
 import com.thevale.whovianlads.blocks.ValeBlocks;
+import com.thevale.whovianlads.items.ValeItems;
 import com.thevale.whovianlads.registry.ValeConsoleRegistry;
 import com.thevale.whovianlads.registry.ValeExteriorRegistry;
 import com.thevale.whovianlads.tileentities.ValeTiles;
@@ -24,6 +25,7 @@ public class whovianlads {
                // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
         IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ValeItems.ITEMS.register(modBus);
         ValeBlocks.BLOCKS.register(modBus);
         ValeConsoleRegistry.CONSOLES.register(modBus);
         ValeTiles.TILES.register(modBus);

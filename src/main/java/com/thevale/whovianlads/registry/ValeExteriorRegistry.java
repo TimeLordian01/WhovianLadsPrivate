@@ -34,6 +34,11 @@ public class ValeExteriorRegistry {
                     true, EnumDoorTypes.RANI, DoorSounds.WOOD,
                     new ResourceLocation(whovianlads.MODID, "textures/gui/exteriors/rani.png")));
 
+    public static final RegistryObject<AbstractExterior> OLWARRIOR = EXTERIORS.register("olwarrior",
+            () -> new TwoBlockBasicExterior(() -> ValeBlocks.exterior_olwarrior.get().getDefaultState(),
+                    true, EnumDoorTypes.OLWARRIOR, DoorSounds.WOOD,
+                    new ResourceLocation(whovianlads.MODID, "textures/gui/exteriors/olwarrior.png")));
+
 
 
 }

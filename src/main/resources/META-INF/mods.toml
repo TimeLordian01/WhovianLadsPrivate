@@ -57,3 +57,9 @@ TARDIS Exterior Expansion Pack for The New TARDIS Mod 1.14
     versionRange="[1.5.4,)"
     ordering="AFTER"
     side="BOTH"
+#[[dependencies.whovianlads]]
+#    modId="tadditions"
+#    mandatory=true
+#    versionRange="[3.0,)"
+#    ordering="AFTER"
+#    side="BOTH"

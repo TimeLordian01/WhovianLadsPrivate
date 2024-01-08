@@ -23,6 +23,9 @@ public class TextureVariants {
     public static final TexVariant[] BRACKOLIN = {
             new TexVariant(new ResourceLocation(whovianlads.MODID, "textures/exteriors/brackolin/brackolin.png"),"brackolin.normal")
     };
+    public static final TexVariant[] OLWARRIOR = {
+            new TexVariant(new ResourceLocation(whovianlads.MODID, "textures/exteriors/olwarrior/olwarrior.png"),"olwarrior.normal")
+    };
     //Consoles
     public static final TexVariant[] VALE = {
             new TexVariant(new ResourceLocation(whovianlads.MODID,"textures/consoles/valeconsole.png"), "vale.normal"),

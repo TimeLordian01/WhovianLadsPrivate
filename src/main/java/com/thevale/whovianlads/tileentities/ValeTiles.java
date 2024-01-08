@@ -34,6 +34,10 @@ public class ValeTiles {
             TILES.register("exterior_rani", () -> registerTiles(RaniTile::new,
                     ValeBlocks.exterior_rani.get()));
 
+    public static RegistryObject<TileEntityType<OlwarriorTile>> exterior_olwarrior =
+            TILES.register("exterior_olwarrior", () -> registerTiles(OlwarriorTile::new,
+                    ValeBlocks.exterior_olwarrior.get()));
+
 
     //Consoles
     public static RegistryObject<TileEntityType<ValeConsoleTile>> console_vale =

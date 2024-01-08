@@ -27,6 +27,8 @@ public class ValeBlocks {
             () -> setUpBlock(new ExteriorBlock()), false);
     public static RegistryObject<Block> exterior_rani = register("exterior_rani",
             () -> setUpBlock(new ExteriorBlock()), false);
+    public static RegistryObject<Block> exterior_olwarrior = register("exterior_olwarrior",
+            () -> setUpBlock(new ExteriorBlock()), false);
 
     //Consoles
     public static RegistryObject<Block> console_vale = register("console_vale",

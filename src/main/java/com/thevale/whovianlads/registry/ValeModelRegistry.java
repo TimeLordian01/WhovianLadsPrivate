@@ -33,6 +33,7 @@ public class ValeModelRegistry {
             RenderTypeLookup.setRenderLayer(ValeBlocks.exterior_streetside.get(), RenderType.getTranslucent());
             RenderTypeLookup.setRenderLayer(ValeBlocks.exterior_brackolin.get(), RenderType.getTranslucent());
             RenderTypeLookup.setRenderLayer(ValeBlocks.exterior_rani.get(), RenderType.getTranslucent());
+            RenderTypeLookup.setRenderLayer(ValeBlocks.exterior_olwarrior.get(), RenderType.getTranslucent());
                 });
 
         //ClientRegistry
@@ -45,6 +46,8 @@ public class ValeModelRegistry {
             EnumDoorTypes.STREETSIDE.setInteriorDoorModel(new StreetsideInteriorDoor());
         ClientRegistry.bindTileEntityRenderer(ValeTiles.exterior_brackolin.get(), BrackolinRender::new);
              EnumDoorTypes.BRACKOLIN.setInteriorDoorModel(new BrackolinInteriorDoor());
+        ClientRegistry.bindTileEntityRenderer(ValeTiles.exterior_olwarrior.get(), OlwarriorRender::new);
+        EnumDoorTypes.OLWARRIOR.setInteriorDoorModel(new OlwarriorInteriorDoor());
 
         //Consoles
         ClientRegistry.bindTileEntityRenderer(ValeTiles.console_vale.get(), ValeConsoleRender::new);
