@@ -13,8 +13,9 @@ public class ValeConsoleRegistry {
 
     public static final RegistryObject<VConsoles> SMITH = CONSOLES.register("smith",
             () -> new VConsoles(() -> ValeBlocks.console_smith.get().getDefaultState(), "smithconsole"));
-    public static final RegistryObject<VConsoles> CORAL2 = CONSOLES.register("coral2",
-            () -> new VConsoles(() -> ValeBlocks.console_coral2.get().getDefaultState(), "coralconsole"));
     public static final RegistryObject<VConsoles> VALE = CONSOLES.register("vale",
             () -> new VConsoles(() -> ValeBlocks.console_vale.get().getDefaultState(), "valeconsole"));
+
+    public static final RegistryObject<VConsoles> BRACKOLIN = CONSOLES.register("brackolin",
+            ()-> new VConsoles(() -> ValeBlocks.console_brackolin.get().getDefaultState(),"brackolinconsole"));
 }

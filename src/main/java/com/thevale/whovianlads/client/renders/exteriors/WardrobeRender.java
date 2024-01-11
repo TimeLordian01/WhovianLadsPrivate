@@ -3,7 +3,7 @@ package com.thevale.whovianlads.client.renders.exteriors;
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.thevale.whovianlads.client.models.exteriors.WardrobeExterior;
-import com.thevale.whovianlads.tileentities.WardrobeTile;
+import com.thevale.whovianlads.tileentities.exteriors.WardrobeTile;
 import net.minecraft.client.renderer.IRenderTypeBuffer;
 import net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher;
 import net.minecraft.util.ResourceLocation;

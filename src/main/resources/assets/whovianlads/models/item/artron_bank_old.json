@@ -1,0 +1,6 @@
+{
+  "parent" : "whovianlads:block/artron_bank_old",
+  "textures": {
+    "0": "whovianlads:block/artron_bank"
+  }
+}

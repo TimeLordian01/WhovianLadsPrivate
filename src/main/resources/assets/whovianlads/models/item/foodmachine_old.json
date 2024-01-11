@@ -1,0 +1,6 @@
+{
+  "parent" : "whovianlads:block/foodmachine_old",
+  "textures": {
+    "0": "whovianlads:block/foodmachinetextures"
+  }
+}

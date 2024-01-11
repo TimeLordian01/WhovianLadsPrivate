@@ -10,15 +10,27 @@
   "texvar.whovianlads.wardrobe.stone": "Stone Brick",
   "texvar.whovianlads.wardrobe.spruce_stone": "Stone Brick x Spruce Wood",
   "texvar.whovianlads.wardrobe.warped": "Warped Wood",
-
   "texvar.whovianlads.brackolin.normal": "Clean",
-  
   "texvar.whovianlads.olwarrior.normal": "Normal",
-
   "texvar.whovianlads.console.vale.normal": "Normal",
   "texvar.whovianlads.console.vale.purple": "Spacetime",
 
 
+  "item.whovianlads.tezarak_coin" : "Tezerak Coin",
 
-  "item.whovianlads.tezarak_coin" : "Tezerak Coin"
+
+  "block.whovianlads.ars_egg_old" : "Old ARS Egg",
+  "block.whovianlads.artron_bank_old" : "Old Artron Bank (Decorative)",
+  "block.whovianlads.foodmachine_old" : "Food Machine Old",
+
+
+  "exterior.tardis.brackolin" : "Brackolin",
+  "exterior.tardis.olwarrior" : "Ol' warrior",
+  "exterior.tardis.wardrobe" : "Wardrobe",
+  "exterior.tardis.rani" : "Rani",
+
+  "console.whovianlads.brackolin" : "Brackolin",
+
+  "itemGroup.whoviansRestCreativeTab" : "Whovians Rest"
+
 }

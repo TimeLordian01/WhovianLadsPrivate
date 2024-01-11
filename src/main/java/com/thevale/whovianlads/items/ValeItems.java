@@ -1,5 +1,6 @@
 package com.thevale.whovianlads.items;
 
+import com.thevale.whovianlads.util.WhovianLadsItemGroup;
 import com.thevale.whovianlads.whovianlads;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -15,5 +16,6 @@ public class ValeItems{
 
     public static final RegistryObject<Item> TEZARAK_COIN = ITEMS.register("tezarak_coin",
             ()-> new Item(new Item.Properties()
-                    .group(ItemGroup.MISC).maxStackSize(16).rarity(Rarity.RARE).isImmuneToFire()));
+                    .group(WhovianLadsItemGroup.WHOVIANREST).maxStackSize(16).rarity(Rarity.RARE).isImmuneToFire()));
+
 }

@@ -1,0 +1,7 @@
+{
+  "parent" : "whovianlads:block/ars_egg_old",
+    "textures": {
+          "0": "whovianlads:block/ars/glowy",
+          "1": "whovianlads:block/ars/metal"
+      }
+}

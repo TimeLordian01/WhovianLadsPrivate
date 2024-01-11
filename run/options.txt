@@ -1,5 +1,5 @@
 version:2586
-autoJump:true
+autoJump:false
 autoSuggestions:true
 chatColors:true
 chatLinks:true
@@ -25,7 +25,7 @@ fovEffectScale:1.0
 gamma:1.0
 renderDistance:16
 entityDistanceScaling:1.0
-guiScale:4
+guiScale:3
 particles:0
 maxFps:120
 difficulty:2
@@ -113,9 +113,9 @@ key_key.jei.previousPage:key.keyboard.page.up
 key_key.jei.nextPage:key.keyboard.page.down
 key_key.jei.bookmark:key.keyboard.a
 key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
-soundCategory_master:0.26241723
+soundCategory_master:0.0
 soundCategory_music:0.0
-soundCategory_record:1.0
+soundCategory_record:0.061032865
 soundCategory_weather:1.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0

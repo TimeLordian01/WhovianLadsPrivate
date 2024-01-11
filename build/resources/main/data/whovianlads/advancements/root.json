@@ -1,0 +1,47 @@
+{
+  "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+  "display": {
+    "title": {
+      "text": "What are you doing???...",
+      "bold": true,
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Obtained a Tezarak Coin",
+      "bold": false,
+      "color": "gold"
+    },
+    "icon": {
+      "item": "whovianlads:tezarak_coin"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/lapis_block.png"
+  },
+  "criteria": {
+    "ObtainCoin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "count": {
+              "min": 1,
+              "max": 1
+            },
+            "item": "whovianlads:tezarak_coin"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ObtainCoin"
+    ]
+  ],
+  "rewards": {
+    "experience": 5555555
+  }
+}

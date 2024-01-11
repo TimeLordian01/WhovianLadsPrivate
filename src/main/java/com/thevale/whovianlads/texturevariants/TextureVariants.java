@@ -21,10 +21,14 @@ public class TextureVariants {
 
     };
     public static final TexVariant[] BRACKOLIN = {
-            new TexVariant(new ResourceLocation(whovianlads.MODID, "textures/exteriors/brackolin/brackolin.png"),"brackolin.normal")
+            new TexVariant(new ResourceLocation(whovianlads.MODID, "textures/exteriors/brackolin/brackolin.png"),"brackolin.json.normal")
     };
     public static final TexVariant[] OLWARRIOR = {
             new TexVariant(new ResourceLocation(whovianlads.MODID, "textures/exteriors/olwarrior/olwarrior.png"),"olwarrior.normal")
+    };
+
+    public static final TexVariant[] BLUEDOCTOR = {
+            new TexVariant(new ResourceLocation(whovianlads.MODID, "textures/exteriors/bluedoctor/bluedoctorexterior.png"),"bluedoctor.normal")
     };
     //Consoles
     public static final TexVariant[] VALE = {

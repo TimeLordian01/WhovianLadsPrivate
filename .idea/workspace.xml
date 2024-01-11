@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9388ab58-dde3-43ae-ba4e-b9dd9a3d9337" name="Default Changelist" comment="Texture Variants and Console Fixes" />
+    <list default="true" id="9388ab58-dde3-43ae-ba4e-b9dd9a3d9337" name="Default Changelist" comment="Texture Variants and Console Fixes">
+      <change beforePath="$PROJECT_DIR$/WhovianLadsPrivate/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/WhovianLadsPrivate/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WhovianLadsPrivate/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WhovianLadsPrivate/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,12 +44,6 @@
                 <item name="WhovianLads" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="WhovianLads" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="fg_runs" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -104,34 +101,38 @@
     "Gradle.WhovianLads [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor": "Run",
     "Gradle.WhovianLads [:prepareRunClient].executor": "Run",
     "Gradle.WhovianLads [build].executor": "Debug",
+    "Gradle.WhovianLads [clean].executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/haydn/IdeaProjects/WhovianLads/src/main/resources/data/whovianlads/recipes/spectrometer/exteriors",
+    "last_opened_file_path": "C:/Users/haydn/IdeaProjects/WhovianLads/src/main/resources/assets/whovianlads/models/item",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\data\whovianlads\recipes\spectrometer\exteriors" />
-      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\run\mods" />
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\models\item" />
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\blockstates" />
       <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\data\whovianlads\structures" />
-      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\data\whovianlads\console_rooms" />
-      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\data\whovianlads\unlock_schematics\interiors" />
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\data\whovianlads\advancements" />
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\data\whovianlads\recipes\spectrometer\exteriors" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\data\whovianlads\recipes\quantiscope" />
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\data\whovianlads\recipes" />
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\models\" />
       <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\data\whovianlads\structures" />
       <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\textures\gui\interior" />
-      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\textures\gui\blue_doctor_interior" />
-      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\data\whovianlads\unlock_schematics\interiors" />
-      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\data\whovianlads\unlock_schematics\interiors\interiors" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.thevale.whovianlads.client.models.interiordoors" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thevale.whovianlads.procedures" />
+      <recent name="com.thevale.whovianlads.tileentities.exteriors" />
       <recent name="com.thevale.whovianlads.client.renders.exteriors" />
+      <recent name="com.thevale.whovianlads.client.renders.consoles" />
       <recent name="com.thevale.whovianlads.tileentities" />
     </key>
   </component>
@@ -170,28 +171,6 @@
         <option name="taskNames">
           <list>
             <option value="genIntellijRuns" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="MoreTimeCapsules-1.16 [prepareRunClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="prepareRunClient" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -246,23 +225,45 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="WhovianLads [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.runClient" />
       <item itemvalue="Application.runData" />
       <item itemvalue="Application.runServer" />
       <item itemvalue="Gradle.WhovianLads [build]" />
+      <item itemvalue="Gradle.WhovianLads [clean]" />
       <item itemvalue="Gradle.MoreTimeCapsules-1.16 [buildEnvironment]" />
       <item itemvalue="Gradle.MoreTimeCapsules-1.16 [genIntellijRuns]" />
       <item itemvalue="Gradle.MoreTimeCapsules-1.16 [runClient]" />
-      <item itemvalue="Gradle.MoreTimeCapsules-1.16 [prepareRunClient]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.WhovianLads [clean]" />
         <item itemvalue="Gradle.WhovianLads [build]" />
         <item itemvalue="Gradle.MoreTimeCapsules-1.16 [genIntellijRuns]" />
         <item itemvalue="Gradle.MoreTimeCapsules-1.16 [runClient]" />
         <item itemvalue="Gradle.MoreTimeCapsules-1.16 [buildEnvironment]" />
-        <item itemvalue="Gradle.MoreTimeCapsules-1.16 [prepareRunClient]" />
       </list>
     </recent_temporary>
   </component>

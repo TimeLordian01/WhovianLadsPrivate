@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#g#",
+    "gNg",
+    "#g#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:xion_crystal"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "N": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "whovianlads:artron_bank_old",
+    "count": 1
+  }
+}

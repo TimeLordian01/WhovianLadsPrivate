@@ -19,26 +19,24 @@ public class ValeExteriorRegistry {
             () -> new TwoBlockBasicExterior(() -> ValeBlocks.exterior_wardrobe.get().getDefaultState(),
                     true, EnumDoorTypes.WARDROBE, DoorSounds.WOOD,
                     new ResourceLocation(whovianlads.MODID, "textures/gui/exteriors/wardrobeexterior.png"), TextureVariants.WARDROBE));
-    public static final RegistryObject<AbstractExterior> STREETSIDE = EXTERIORS.register("streetside",
-            () -> new TwoBlockBasicExterior(() -> ValeBlocks.exterior_streetside.get().getDefaultState(),
-                    true, EnumDoorTypes.STREETSIDE, DoorSounds.WOOD,
-                    new ResourceLocation(whovianlads.MODID, "textures/gui/exteriors/streetsideexterior.png")));
-
     public static final RegistryObject<AbstractExterior> BRACKOLIN = EXTERIORS.register("brackolin",
             () -> new TwoBlockBasicExterior(() -> ValeBlocks.exterior_brackolin.get().getDefaultState(),
                     true, EnumDoorTypes.BRACKOLIN, DoorSounds.WOOD,
-                    new ResourceLocation(whovianlads.MODID, "textures/gui/exteriors/brackolin.png")));
+                    new ResourceLocation(whovianlads.MODID, "textures/gui/exteriors/brackolinexterior.png")));
 
     public static final RegistryObject<AbstractExterior> RANI_NET = EXTERIORS.register("rani",
             () -> new TwoBlockBasicExterior(() -> ValeBlocks.exterior_rani.get().getDefaultState(),
                     true, EnumDoorTypes.RANI, DoorSounds.WOOD,
-                    new ResourceLocation(whovianlads.MODID, "textures/gui/exteriors/rani.png")));
+                    new ResourceLocation(whovianlads.MODID, "textures/gui/exteriors/raniexterior.png")));
 
     public static final RegistryObject<AbstractExterior> OLWARRIOR = EXTERIORS.register("olwarrior",
             () -> new TwoBlockBasicExterior(() -> ValeBlocks.exterior_olwarrior.get().getDefaultState(),
                     true, EnumDoorTypes.OLWARRIOR, DoorSounds.WOOD,
-                    new ResourceLocation(whovianlads.MODID, "textures/gui/exteriors/olwarrior.png")));
+                    new ResourceLocation(whovianlads.MODID, "textures/gui/exteriors/olwarriorexterior.png")));
 
-
+    public static final RegistryObject<AbstractExterior> BLUEDOCTOR = EXTERIORS.register("bluedoctor",
+            () -> new TwoBlockBasicExterior(() -> ValeBlocks.exterior_bluedoctor.get().getDefaultState(),
+                    true, EnumDoorTypes.BLUEDOCTOR, DoorSounds.WOOD,
+                    new ResourceLocation(whovianlads.MODID, "textures/gui/exteriors/bluedoctorexterior.png")));
 
 }

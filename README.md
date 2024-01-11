@@ -4,7 +4,7 @@ Code Help: Inventor, Spectre0987, Suff.
 
 Current Credits:
 
-    TheVale: Brackolin and Wardrobe Exteriors - Brackolin Interior
+    TheVale: BrackolinConsole and Wardrobe Exteriors - BrackolinConsole Interior
 
     AydinTheTimelord: Blue Doctor Interior
 

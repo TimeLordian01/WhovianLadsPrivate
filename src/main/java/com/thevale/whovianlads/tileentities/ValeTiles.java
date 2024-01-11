@@ -1,10 +1,10 @@
 package com.thevale.whovianlads.tileentities;
 
 
+import com.thevale.whovianlads.tileentities.consoles.BrackolinConsoleTile;
+import com.thevale.whovianlads.tileentities.exteriors.*;
 import com.thevale.whovianlads.whovianlads;
 import com.thevale.whovianlads.blocks.ValeBlocks;
-import com.thevale.whovianlads.tileentities.consoles.CoralConsoleTile;
-import com.thevale.whovianlads.tileentities.consoles.NewCoralConsoleTile;
 import com.thevale.whovianlads.tileentities.consoles.SmithConsoleTile;
 import com.thevale.whovianlads.tileentities.consoles.ValeConsoleTile;
 import net.minecraft.block.Block;
@@ -23,10 +23,6 @@ public class ValeTiles {
     public static RegistryObject<TileEntityType<WardrobeTile>> exterior_wardrobe =
             TILES.register("exterior_wardrobe", () -> registerTiles(WardrobeTile::new,
                     ValeBlocks.exterior_wardrobe.get()));
-    public static RegistryObject<TileEntityType<StreetsideTile>> exterior_streetside =
-            TILES.register("exterior_streetside", () -> registerTiles(StreetsideTile::new,
-                    ValeBlocks.exterior_streetside.get()));
-
     public static RegistryObject<TileEntityType<BrackolinTile>> exterior_brackolin =
             TILES.register("exterior_brackolin", () -> registerTiles(BrackolinTile::new,
                     ValeBlocks.exterior_brackolin.get()));
@@ -38,20 +34,27 @@ public class ValeTiles {
             TILES.register("exterior_olwarrior", () -> registerTiles(OlwarriorTile::new,
                     ValeBlocks.exterior_olwarrior.get()));
 
+    public static RegistryObject<TileEntityType<BlueDoctorTile>> exterior_bluedoctor =
+            TILES.register("exterior_bluedoctor", () -> registerTiles(BlueDoctorTile::new,
+                    ValeBlocks.exterior_bluedoctor.get()));
 
     //Consoles
     public static RegistryObject<TileEntityType<ValeConsoleTile>> console_vale =
             TILES.register("console_vale", () -> registerTiles(ValeConsoleTile::new,
                     ValeBlocks.console_vale.get()));
-    public static RegistryObject<TileEntityType<CoralConsoleTile>> console_coral2 =
-            TILES.register("console_coral2", () -> registerTiles(CoralConsoleTile::new,
-                    ValeBlocks.console_coral2.get()));
     public static RegistryObject<TileEntityType<SmithConsoleTile>> console_smith =
             TILES.register("console_smith", () -> registerTiles(SmithConsoleTile::new,
                     ValeBlocks.console_smith.get()));
-    public static RegistryObject<TileEntityType<NewCoralConsoleTile>> console_newcoral =
-            TILES.register("console_newcoral", () -> registerTiles(NewCoralConsoleTile::new,
-                    ValeBlocks.console_newcoral.get()));
+
+    public static final RegistryObject<TileEntityType<BrackolinConsoleTile>> console_brackolin =
+            TILES.register("console_brackolin", () ->registerTiles(BrackolinConsoleTile::new,
+                    ValeBlocks.console_brackolin.get()));
+
+
+
+
+
+
 
 
 
