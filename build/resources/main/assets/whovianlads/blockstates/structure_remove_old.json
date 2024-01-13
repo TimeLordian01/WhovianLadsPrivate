@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "whovianlads:block/structure_remove_old"
+    }
+  }
+}

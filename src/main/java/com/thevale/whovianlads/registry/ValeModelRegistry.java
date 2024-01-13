@@ -1,14 +1,12 @@
 package com.thevale.whovianlads.registry;
 
-import com.thevale.whovianlads.client.renders.consoles.BrackolinConsoleRender;
-import com.thevale.whovianlads.util.EnumDoorTypes;
-import com.thevale.whovianlads.whovianlads;
 import com.thevale.whovianlads.blocks.ValeBlocks;
 import com.thevale.whovianlads.client.models.interiordoors.*;
-import com.thevale.whovianlads.client.renders.consoles.SmithConsoleRender;
-import com.thevale.whovianlads.client.renders.consoles.ValeConsoleRender;
+import com.thevale.whovianlads.client.renders.consoles.BrackolinConsoleRender;
 import com.thevale.whovianlads.client.renders.exteriors.*;
-import com.thevale.whovianlads.tileentities.*;
+import com.thevale.whovianlads.tileentities.ValeTiles;
+import com.thevale.whovianlads.util.EnumDoorTypes;
+import com.thevale.whovianlads.whovianlads;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.api.distmarker.Dist;
@@ -49,8 +47,6 @@ public class ValeModelRegistry {
              EnumDoorTypes.BLUEDOCTOR.setInteriorDoorModel(new BlueDoctorInteriorDoor());
 
         //Consoles
-        ClientRegistry.bindTileEntityRenderer(ValeTiles.console_vale.get(), ValeConsoleRender::new);
-        ClientRegistry.bindTileEntityRenderer(ValeTiles.console_smith.get(), SmithConsoleRender::new);
         ClientRegistry.bindTileEntityRenderer(ValeTiles.console_brackolin.get(), BrackolinConsoleRender::new);
     }
 

@@ -6,6 +6,7 @@ package com.thevale.whovianlads.client.models.interiordoors;// Made with Blockbe
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.thevale.whovianlads.client.renders.exteriors.BrackolinRender;
+import com.thevale.whovianlads.tileentities.exteriors.BrackolinTile;
 import com.thevale.whovianlads.util.EnumDoorTypes;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.RenderType;
@@ -19,12 +20,14 @@ import net.tardis.mod.client.models.interiordoors.IInteriorDoorRenderer;
 import net.tardis.mod.client.renderers.boti.BOTIRenderer;
 import net.tardis.mod.client.renderers.boti.PortalInfo;
 import net.tardis.mod.client.renderers.entity.DoorRenderer;
+import net.tardis.mod.client.renderers.exteriors.ExteriorRenderer;
 import net.tardis.mod.entity.DoorEntity;
 import net.tardis.mod.enums.EnumDoorState;
 import net.tardis.mod.helper.TardisHelper;
 import net.tardis.mod.helper.WorldHelper;
 import net.tardis.mod.misc.IDoorType;
 import net.tardis.mod.tileentities.ConsoleTile;
+import net.tardis.mod.tileentities.exteriors.ExteriorTile;
 
 public class BrackolinInteriorDoor extends EntityModel<Entity> implements IInteriorDoorRenderer {
 	private final ModelRenderer Shell;
@@ -92,7 +95,7 @@ public class BrackolinInteriorDoor extends EntityModel<Entity> implements IInter
 		LeftDoor.render(matrixStack, buffer, packedLight, packedOverlay);
 		Shell.render(matrixStack, buffer, packedLight, packedOverlay);
 		RightDoor.render(matrixStack, buffer, packedLight, packedOverlay);
-		//BOTI.render(matrixStack, buffer, packedLight, packedOverlay);
+		//SOTO.render(matrixStack, buffer, packedLight, packedOverlay);
 		matrixStack.pop();
 	}
 
@@ -103,8 +106,10 @@ public class BrackolinInteriorDoor extends EntityModel<Entity> implements IInter
 		matrixStack.translate(0, 1.25, -0.5);
 		matrixStack.scale(1, 1, 1);
 		this.RightDoor.rotateAngleY = (float) Math.toRadians(EnumDoorTypes.BRACKOLIN.getRotationForState(door.getOpenState()));
+		this.LeftDoor.rotateAngleY = (float) Math.toRadians(EnumDoorTypes.BRACKOLIN.getRotationForState(door.getOpenState()));
 
 		this.renderDoorWhenClosed(door, matrixStack, buffer, packedLight, packedOverlay, this.RightDoor);
+		this.renderDoorWhenClosed(door, matrixStack, buffer, packedLight, packedOverlay, this.LeftDoor);
 		Shell.render(matrixStack, buffer, packedLight, packedOverlay);
 
 		matrixStack.pop();
@@ -117,36 +122,43 @@ public class BrackolinInteriorDoor extends EntityModel<Entity> implements IInter
 						   int packedOverlay) {
 		if(Minecraft.getInstance().world != null && door.getOpenState() != EnumDoorState.CLOSED){
 			Minecraft.getInstance().world.getCapability(Capabilities.TARDIS_DATA).ifPresent(data -> {
-				matrixStack.push();
+
 				PortalInfo info = new PortalInfo();
 				info.setPosition(door.getPositionVec());
 				info.setWorldShell(data.getBotiWorld());
-
 				info.setTranslate(matrix -> {
-
-					matrix.scale(1.1f, 1.1f, 1.2f);
-					matrix.translate(0.025, 0, 0);
 					DoorRenderer.applyTranslations(matrix, door.rotationYaw - 180, door.getHorizontalFacing());
+					matrix.rotate(Vector3f.ZN.rotationDegrees(180));
+					matrix.translate(0, -0.15, -0.45);
 				});
 				info.setTranslatePortal(matrix -> {
-					matrix.rotate(Vector3f.ZN.rotationDegrees(180));
 					matrix.rotate(Vector3f.YP.rotationDegrees(WorldHelper.getAngleFromFacing(data.getBotiWorld().getPortalDirection())));
-					matrix.translate(-0.5, -1.75, -0.5);
+					matrix.translate(-0.5, -1.25, -0.5);
 				});
 
-				info.setRenderPortal((matrix, impl) -> {
+				info.setRenderPortal((matrix, buf) -> {
 					matrix.push();
-					matrix.translate(-0.05, -0.2, -0.5f);
-					matrix.scale(1.1F, 1.1F, 1.1F);
-					this.SOTO.render(matrix, impl.getBuffer(RenderType.getEntityCutout(this.getTexture())), packedLight, packedOverlay);
+					matrix.scale(0.5F, 0.5F, 0.5F);
+					this.SOTO.render(matrix, buf.getBuffer(RenderType.getEntityCutout(getTexture())), packedLight, packedOverlay);
 					matrix.pop();
 				});
 
+				/**info.setRenderDoor((matrix, buf) -> {
+					matrix.push();
+					matrix.rotate(Vector3f.ZN.rotationDegrees(180));
+					matrix.translate(0, 0.5, 0);
+					matrix.scale(0.5F, 0.5F, 0.5F);
+					this.lid_rotate_y.render(matrix, buf.getBuffer(RenderType.getEntityCutout(getTexture())), packedLight, packedOverlay);
+					matrix.pop();
+				});**/
+
+
 				BOTIRenderer.addPortal(info);
-				matrixStack.pop();
 			});
 		}
 	}
+
+
 
 
 	@Override

@@ -6,20 +6,15 @@ package com.thevale.whovianlads.client.models.consoles;// Made with Blockbench 4
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.thevale.whovianlads.tileentities.consoles.BrackolinConsoleTile;
-import com.thevale.whovianlads.tileentities.consoles.ValeConsoleTile;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.Direction;
-import net.tardis.mod.client.models.EntityGlowRenderer;
 import net.tardis.mod.client.models.LightModelRenderer;
 import net.tardis.mod.client.models.TileModel;
-import net.tardis.mod.client.models.interiordoors.IInteriorDoorRenderer;
 import net.tardis.mod.controls.*;
-import net.tardis.mod.entity.DoorEntity;
 import net.tardis.mod.enums.EnumDoorState;
 import net.tardis.mod.subsystem.StabilizerSubsystem;
-import net.tardis.mod.subsystem.Subsystem;
 
 public class BrackolinConsole extends EntityModel<Entity> implements TileModel<BrackolinConsoleTile> {
 	private final ModelRenderer Console;
@@ -183,11 +178,11 @@ public class BrackolinConsole extends EntityModel<Entity> implements TileModel<B
 	private final ModelRenderer Lever8;
 	private final ModelRenderer Lever9;
 	private final LightModelRenderer Lights2;
-	private final EntityGlowRenderer Lamp2;
-	private final  EntityGlowRenderer bone5;
-	private final  EntityGlowRenderer bone6;
-	private final  EntityGlowRenderer bone7;
-	private final  EntityGlowRenderer bone8;
+	private final LightModelRenderer Lamp2;
+	private final ModelRenderer bone5;
+	private final ModelRenderer bone6;
+	private final ModelRenderer bone7;
+	private final ModelRenderer bone8;
 	private final ModelRenderer Panel4;
 	private final ModelRenderer PanelBaseSlant10;
 	private final ModelRenderer Handbrake;
@@ -195,22 +190,22 @@ public class BrackolinConsole extends EntityModel<Entity> implements TileModel<B
 	private final ModelRenderer cube_r36;
 	private final ModelRenderer Throttle;
 	private final LightModelRenderer Lights3;
-	private final  EntityGlowRenderer Lamp3;
+	private final LightModelRenderer Lamp3;
 	private final LightModelRenderer Lights5;
-	private final  EntityGlowRenderer Lamp5;
-	private final  EntityGlowRenderer bone;
-	private final  EntityGlowRenderer bone2;
-	private final  EntityGlowRenderer bone4;
-	private final  EntityGlowRenderer bone3;
+	private final LightModelRenderer Lamp5;
+	private final ModelRenderer bone;
+	private final ModelRenderer bone2;
+	private final ModelRenderer bone4;
+	private final ModelRenderer bone3;
 	private final ModelRenderer Panel6;
 	private final ModelRenderer PanelBaseSlant11;
 	private final LightModelRenderer FastReturn;
 	private final LightModelRenderer Lights4;
 	private final LightModelRenderer Lamp4;
-	private final  EntityGlowRenderer bone13;
-	private final  EntityGlowRenderer bone14;
-	private final  EntityGlowRenderer bone12;
-	private final  EntityGlowRenderer bone11;
+	private final ModelRenderer bone13;
+	private final ModelRenderer bone14;
+	private final ModelRenderer bone12;
+	private final ModelRenderer bone11;
 	private final ModelRenderer RandomLevers2;
 	private final ModelRenderer Lever5;
 	private final ModelRenderer Lever10;
@@ -1305,30 +1300,30 @@ public class BrackolinConsole extends EntityModel<Entity> implements TileModel<B
 		Lights2.setTextureOffset(146, 5).addBox(1.6F, -16.284F, -10.4F, 1.0F, 1.0F, 1.0F, 0.0F, true);
 		Lights2.setTextureOffset(146, 5).addBox(1.6F, -16.284F, -9.15F, 1.0F, 1.0F, 1.0F, 0.0F, true);
 
-		Lamp2 = new  EntityGlowRenderer(this);
+		Lamp2 = new LightModelRenderer(this);
 		Lamp2.setRotationPoint(0.0F, -15.75F, -8.65F);
 		Lights2.addChild(Lamp2);
 
 
-		bone5 = new  EntityGlowRenderer(this);
+		bone5 = new ModelRenderer(this);
 		bone5.setRotationPoint(2.1F, -0.334F, 0.0F);
 		Lamp2.addChild(bone5);
 		setRotationAngle(bone5, 0.0F, -0.7854F, 0.0F);
 		bone5.setTextureOffset(23, 132).addBox(-0.5F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, -0.2F, true);
 
-		bone6 = new  EntityGlowRenderer(this);
+		bone6 = new ModelRenderer(this);
 		bone6.setRotationPoint(2.1F, -0.334F, -1.25F);
 		Lamp2.addChild(bone6);
 		setRotationAngle(bone6, 0.0F, -0.7854F, 0.0F);
 		bone6.setTextureOffset(23, 132).addBox(-0.5F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, -0.2F, true);
 
-		bone7 = new  EntityGlowRenderer(this);
+		bone7 = new ModelRenderer(this);
 		bone7.setRotationPoint(-0.85F, -0.334F, 0.0F);
 		Lamp2.addChild(bone7);
 		setRotationAngle(bone7, 0.0F, -0.7854F, 0.0F);
 		bone7.setTextureOffset(23, 132).addBox(-0.5F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, -0.2F, false);
 
-		bone8 = new  EntityGlowRenderer(this);
+		bone8 = new ModelRenderer(this);
 		bone8.setRotationPoint(-0.85F, -0.334F, -1.25F);
 		Lamp2.addChild(bone8);
 		setRotationAngle(bone8, 0.0F, -0.7854F, 0.0F);
@@ -1375,7 +1370,7 @@ public class BrackolinConsole extends EntityModel<Entity> implements TileModel<B
 		PanelBaseSlant10.addChild(Lights3);
 
 
-		Lamp3 = new  EntityGlowRenderer(this);
+		Lamp3 = new LightModelRenderer(this);
 		Lamp3.setRotationPoint(0.0F, -15.75F, -8.65F);
 		Lights3.addChild(Lamp3);
 
@@ -1388,30 +1383,30 @@ public class BrackolinConsole extends EntityModel<Entity> implements TileModel<B
 		Lights5.setTextureOffset(146, 5).addBox(1.4F, -16.284F, -7.15F, 1.0F, 1.0F, 1.0F, 0.0F, false);
 		Lights5.setTextureOffset(146, 5).addBox(0.15F, -16.284F, -7.9F, 1.0F, 1.0F, 1.0F, 0.0F, false);
 
-		Lamp5 = new  EntityGlowRenderer(this);
+		Lamp5 = new LightModelRenderer(this);
 		Lamp5.setRotationPoint(0.0F, -15.75F, -8.65F);
 		Lights5.addChild(Lamp5);
 
 
-		bone = new  EntityGlowRenderer(this);
+		bone = new ModelRenderer(this);
 		bone.setRotationPoint(0.65F, -0.334F, -1.25F);
 		Lamp5.addChild(bone);
 		setRotationAngle(bone, 0.0F, -0.7854F, 0.0F);
 		bone.setTextureOffset(23, 132).addBox(-0.5F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, -0.2F, false);
 
-		bone2 = new  EntityGlowRenderer(this);
+		bone2 = new ModelRenderer(this);
 		bone2.setRotationPoint(0.65F, -0.334F, 0.0F);
 		Lamp5.addChild(bone2);
 		setRotationAngle(bone2, 0.0F, -0.7854F, 0.0F);
 		bone2.setTextureOffset(23, 132).addBox(-0.5F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, -0.2F, false);
 
-		bone4 = new  EntityGlowRenderer(this);
+		bone4 = new ModelRenderer(this);
 		bone4.setRotationPoint(1.9F, -0.334F, 2.0F);
 		Lamp5.addChild(bone4);
 		setRotationAngle(bone4, 0.0F, -0.7854F, 0.0F);
 		bone4.setTextureOffset(23, 132).addBox(-0.5F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, -0.2F, false);
 
-		bone3 = new  EntityGlowRenderer(this);
+		bone3 = new ModelRenderer(this);
 		bone3.setRotationPoint(0.65F, -0.334F, 1.25F);
 		Lamp5.addChild(bone3);
 		setRotationAngle(bone3, 0.0F, -0.7854F, 0.0F);
@@ -1463,25 +1458,25 @@ public class BrackolinConsole extends EntityModel<Entity> implements TileModel<B
 		Lights4.addChild(Lamp4);
 
 
-		bone13 = new  EntityGlowRenderer(this);
+		bone13 = new ModelRenderer(this);
 		bone13.setRotationPoint(-2.1F, -0.334F, 1.25F);
 		Lamp4.addChild(bone13);
 		setRotationAngle(bone13, 0.0F, -0.7854F, 0.0F);
 		bone13.setTextureOffset(23, 132).addBox(-0.5F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, -0.2F, false);
 
-		bone14 = new  EntityGlowRenderer(this);
+		bone14 = new ModelRenderer(this);
 		bone14.setRotationPoint(-2.1F, -0.334F, -1.25F);
 		Lamp4.addChild(bone14);
 		setRotationAngle(bone14, 0.0F, -0.7854F, 0.0F);
 		bone14.setTextureOffset(23, 132).addBox(-0.5F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, -0.2F, false);
 
-		bone12 = new  EntityGlowRenderer(this);
+		bone12 = new ModelRenderer(this);
 		bone12.setRotationPoint(2.1F, -0.334F, 1.25F);
 		Lamp4.addChild(bone12);
 		setRotationAngle(bone12, 0.0F, -0.7854F, 0.0F);
 		bone12.setTextureOffset(23, 132).addBox(-0.5F, -0.5F, -0.5F, 1.0F, 1.0F, 1.0F, -0.2F, true);
 
-		bone11 = new  EntityGlowRenderer(this);
+		bone11 = new ModelRenderer(this);
 		bone11.setRotationPoint(2.1F, -0.334F, -1.25F);
 		Lamp4.addChild(bone11);
 		setRotationAngle(bone11, 0.0F, -0.7854F, 0.0F);
@@ -1553,11 +1548,7 @@ public class BrackolinConsole extends EntityModel<Entity> implements TileModel<B
 	}
 
 
-	public void render(ValeConsoleTile tile, float v, MatrixStack matrixStack, IVertexBuilder iVertexBuilder, int i, int i1, float v1, float v2, float v3, float v4) {
-		//TODO Find out wtf this below is
-		//WorldText text = new WorldText(0.22F, 0.15F, 0.002F, 0xFFFFFF);
-		//text.renderMonitor(Helper.getConsoleText(tile));
-	}
+
 	public void setRotationAngle(ModelRenderer modelRenderer, float x, float y, float z) {
 		modelRenderer.rotateAngleX = x;
 		modelRenderer.rotateAngleY = y;
@@ -1569,28 +1560,28 @@ public class BrackolinConsole extends EntityModel<Entity> implements TileModel<B
 
 		tile.getControl(LandingTypeControl.class).ifPresent(landingTypeControl -> {
 			if (landingTypeControl.getLandType() == LandingTypeControl.EnumLandType.DOWN) {
-				this.VerticalLandTypeDown.setBright(1);
-				this.VerticalLandTypeUp.setBright(0);
-			} else {
-				this.VerticalLandTypeDown.setBright(0);
+				this.VerticalLandTypeDown.setBright(2);
 				this.VerticalLandTypeUp.setBright(1);
+			} else {
+				this.VerticalLandTypeDown.setBright(1);
+				this.VerticalLandTypeUp.setBright(2);
 			}
 		});
 
 		tile.getControl(XControl.class).ifPresent(x -> {
-			this.XControl.setBright(x.getAnimationTicks() != 0 ? 1F : 0F);
+			this.XControl.setBright(x.getAnimationTicks() != 0 ? 2F : 1F);
 		});
 
 		tile.getControl(YControl.class).ifPresent(y -> {
-			this.YControl.setBright(y.getAnimationTicks() != 0 ? 1F : 0F);
+			this.YControl.setBright(y.getAnimationTicks() != 0 ? 2F : 1F);
 		});
 
 		tile.getControl(ZControl.class).ifPresent(z -> {
-			this.ZControl.setBright(z.getAnimationTicks() != 0 ? 1F : 0F);
+			this.ZControl.setBright(z.getAnimationTicks() != 0 ? 2F : 1F);
 		});
 
 		tile.getControl(IncModControl.class).ifPresent(incModControl -> {
-			this.ControlIncMod.setBright(incModControl.getAnimationTicks() != 0 ? 1F : 0F);
+			this.ControlIncMod.setBright(incModControl.getAnimationTicks() != 0 ? 2F : 1F);
 		});
 
 		tile.getControl(HandbrakeControl.class).ifPresent(control -> {
@@ -1631,7 +1622,7 @@ public class BrackolinConsole extends EntityModel<Entity> implements TileModel<B
 
 
 		tile.getControl(RandomiserControl.class).ifPresent(randomiserControl -> {
-			this.Randomiser.setBright(randomiserControl.getAnimationTicks() != 0 ? 1F: 0F);
+			this.Randomiser.setBright(randomiserControl.getAnimationTicks() != 0 ? 2F: 1F);
 		});
 
 
@@ -1670,12 +1661,8 @@ public class BrackolinConsole extends EntityModel<Entity> implements TileModel<B
 		this.Lever14.rotateAngleX = (float) Math.toRadians(-45);
 		this.Lever15.rotateAngleX = (float) Math.toRadians( 45);
 		this.Lever16.rotateAngleX = (float) Math.toRadians(-45);
-		matrixStack.push();
-		this.Lights2.render(matrixStack, iVertexBuilder,i,i1);
-		this.Lights3.render(matrixStack, iVertexBuilder,i,i1);
-		this.Lights4.render(matrixStack, iVertexBuilder,i,i1);
-		this.Lights5.render(matrixStack, iVertexBuilder,i,i1);
-		matrixStack.pop();
+
+
 		matrixStack.push();
 		matrixStack.scale(0.95F,0.95F,0.95F);
 		matrixStack.translate(0.0685F,0.275F,-0.07F);

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9388ab58-dde3-43ae-ba4e-b9dd9a3d9337" name="Default Changelist" comment="Texture Variants and Console Fixes">
-      <change beforePath="$PROJECT_DIR$/WhovianLadsPrivate/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/WhovianLadsPrivate/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WhovianLadsPrivate/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WhovianLadsPrivate/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-    </list>
+    <list default="true" id="9388ab58-dde3-43ae-ba4e-b9dd9a3d9337" name="Default Changelist" comment="Texture Variants and Console Fixes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,43 +77,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.runClient.executor": "Debug",
-    "Gradle.Build MoreTimeCapsules-1.16.executor": "Run",
-    "Gradle.Build WhovianLads.executor": "Run",
-    "Gradle.C:/Users/haydn/IdeaProjects/MoreTimeCapsules-1.16 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor": "Run",
-    "Gradle.C:/Users/haydn/IdeaProjects/WhovianLads [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor": "Run",
-    "Gradle.MoreTimeCapsules-1.16 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor": "Run",
-    "Gradle.MoreTimeCapsules-1.16 [:prepareRunClient].executor": "Run",
-    "Gradle.MoreTimeCapsules-1.16 [buildEnvironment].executor": "Run",
-    "Gradle.MoreTimeCapsules-1.16 [cleanEclipse].executor": "Run",
-    "Gradle.MoreTimeCapsules-1.16 [dependencies].executor": "Run",
-    "Gradle.MoreTimeCapsules-1.16 [downloadAssets].executor": "Run",
-    "Gradle.MoreTimeCapsules-1.16 [genIntellijRuns].executor": "Debug",
-    "Gradle.MoreTimeCapsules-1.16 [prepareRunClient].executor": "Run",
-    "Gradle.MoreTimeCapsules-1.16 [runClient].executor": "Debug",
-    "Gradle.MoreTimeCapsulesMod-1.16 [genIntellijRuns].executor": "Run",
-    "Gradle.MoreTimeCapsulesMod-1.16 [runClient].executor": "Debug",
-    "Gradle.WhovianLads [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor": "Run",
-    "Gradle.WhovianLads [:prepareRunClient].executor": "Run",
-    "Gradle.WhovianLads [build].executor": "Debug",
-    "Gradle.WhovianLads [clean].executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/haydn/IdeaProjects/WhovianLads/src/main/resources/assets/whovianlads/models/item",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.runClient.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.Build MoreTimeCapsules-1.16.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build WhovianLads.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.C:/Users/haydn/IdeaProjects/MoreTimeCapsules-1.16 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.C:/Users/haydn/IdeaProjects/WhovianLads [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MoreTimeCapsules-1.16 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MoreTimeCapsules-1.16 [:prepareRunClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MoreTimeCapsules-1.16 [buildEnvironment].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MoreTimeCapsules-1.16 [cleanEclipse].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MoreTimeCapsules-1.16 [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MoreTimeCapsules-1.16 [downloadAssets].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MoreTimeCapsules-1.16 [genIntellijRuns].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.MoreTimeCapsules-1.16 [prepareRunClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MoreTimeCapsules-1.16 [runClient].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.MoreTimeCapsulesMod-1.16 [genIntellijRuns].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MoreTimeCapsulesMod-1.16 [runClient].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.WhovianLads [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.WhovianLads [:prepareRunClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.WhovianLads [build].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.WhovianLads [clean].executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/haydn/IdeaProjects/WhovianLads/src/main/resources/assets/whovianlads/blockstates&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\models\item" />
       <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\blockstates" />
-      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\data\whovianlads\structures" />
-      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\data\whovianlads\advancements" />
-      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\data\whovianlads\recipes\spectrometer\exteriors" />
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\models\item" />
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\textures\block\toyota" />
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\textures\block\panel" />
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\data\whovianlads\loot_tables\blocks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\data\whovianlads\recipes\quantiscope" />
@@ -267,6 +264,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_392-corretto-1.8.0_392-e1d2075fd9a7-1fdd4b62" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -347,13 +351,6 @@
     <MESSAGE value="texture variants might work? ive no idea" />
     <MESSAGE value="odd stuff happened idk" />
     <option name="LAST_COMMIT_MESSAGE" value="odd stuff happened idk" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <default-breakpoints>
-        <breakpoint enabled="true" type="java-exception" />
-      </default-breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

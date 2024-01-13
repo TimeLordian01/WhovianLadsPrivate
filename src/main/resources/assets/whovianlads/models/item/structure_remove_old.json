@@ -1,0 +1,7 @@
+{
+  "parent" : "whovianlads:block/structure_remove_old",
+  "textures": {
+    "3": "whovianlads:block/panel/panel_roomremove",
+    "4": "whovianlads:block/panel/panel_top"
+  }
+}

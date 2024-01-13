@@ -1,0 +1,13 @@
+{
+  "variants":{
+    "type=bottom":{
+      "model":"whovianlads:block/megalos_slab_lower"
+    },
+    "type=top":{
+      "model":"whovianlads:block/megalos_slab_upper"
+    },
+    "type=double":{
+      "model":"whovianlads:block/megalos"
+    }
+  }
+}

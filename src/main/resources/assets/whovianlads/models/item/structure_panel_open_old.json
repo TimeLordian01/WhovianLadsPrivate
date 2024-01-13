@@ -1,0 +1,7 @@
+{
+  "parent" : "whovianlads:block/structure_panel_open_old",
+  "textures": {
+    "1": "whovianlads:block/panel/panel_electric",
+    "4": "whovianlads:block/panel/panel_top"
+  }
+}

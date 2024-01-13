@@ -1,12 +1,11 @@
 package com.thevale.whovianlads.tileentities;
 
 
+import com.google.common.base.Supplier;
+import com.thevale.whovianlads.blocks.ValeBlocks;
 import com.thevale.whovianlads.tileentities.consoles.BrackolinConsoleTile;
 import com.thevale.whovianlads.tileentities.exteriors.*;
 import com.thevale.whovianlads.whovianlads;
-import com.thevale.whovianlads.blocks.ValeBlocks;
-import com.thevale.whovianlads.tileentities.consoles.SmithConsoleTile;
-import com.thevale.whovianlads.tileentities.consoles.ValeConsoleTile;
 import net.minecraft.block.Block;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.TileEntityType;
@@ -14,8 +13,6 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.tardis.mod.blocks.TileBlock;
-
-import com.google.common.base.Supplier;
 
 public class ValeTiles {
     public static final DeferredRegister<TileEntityType<?>> TILES = DeferredRegister.create(ForgeRegistries.TILE_ENTITIES, whovianlads.MODID);
@@ -39,18 +36,14 @@ public class ValeTiles {
                     ValeBlocks.exterior_bluedoctor.get()));
 
     //Consoles
-    public static RegistryObject<TileEntityType<ValeConsoleTile>> console_vale =
-            TILES.register("console_vale", () -> registerTiles(ValeConsoleTile::new,
-                    ValeBlocks.console_vale.get()));
-    public static RegistryObject<TileEntityType<SmithConsoleTile>> console_smith =
-            TILES.register("console_smith", () -> registerTiles(SmithConsoleTile::new,
-                    ValeBlocks.console_smith.get()));
-
     public static final RegistryObject<TileEntityType<BrackolinConsoleTile>> console_brackolin =
             TILES.register("console_brackolin", () ->registerTiles(BrackolinConsoleTile::new,
                     ValeBlocks.console_brackolin.get()));
 
 
+
+
+    //TileBlocks
 
 
 

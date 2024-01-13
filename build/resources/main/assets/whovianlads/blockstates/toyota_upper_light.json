@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "whovianlads:block/toyota_upper_light_off"
+    },
+    "lit=true": {
+      "model": "whovianlads:block/toyota_upper_light_on"
+    }
+  }
+}

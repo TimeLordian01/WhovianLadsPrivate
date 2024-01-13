@@ -1,0 +1,6 @@
+{
+  "parent" : "whovianlads:block/megalos_slab_lower",
+  "textures": {
+    "0": "whovianlads:block/megalos/meglos_blank"
+  }
+}

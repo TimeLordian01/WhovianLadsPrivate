@@ -1,0 +1,6 @@
+{
+  "parent" : "whovianlads:block/megalos_floor",
+  "textures": {
+    "7": "whovianlads:block/megalos/meglos_floor"
+  }
+}

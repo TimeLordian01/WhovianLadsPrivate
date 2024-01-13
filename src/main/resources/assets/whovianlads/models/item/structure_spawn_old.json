@@ -1,0 +1,7 @@
+{
+  "parent" : "whovianlads:block/structure_spawn_old",
+  "textures": {
+    "2": "whovianlads:block/panel/panel_roomgen",
+    "4": "whovianlads:block/panel/panel_top"
+  }
+}
