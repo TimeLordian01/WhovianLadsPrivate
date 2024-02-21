@@ -1,0 +1,23 @@
+{
+  "vale_tardis_landing": {
+    "category" : "blocks",
+    "subtitle" : "whovianlads.vale_landing",
+    "sounds": [
+      "whovianlads:tardis/vale_tardis_landing"
+    ]
+  },
+  "vale_tardis_takeoff": {
+    "category" : "blocks",
+    "subtitle" : "whovianlads.vale_takeoff",
+    "sounds": [
+      "whovianlads:tardis/vale_tardis_takeoff"
+    ]
+  },
+  "vale_tardis_flightloop": {
+    "category" : "blocks",
+    "subtitle" : "whovianlads.vale_flightloop",
+    "sounds": [
+      "whovianlads:tardis/vale_tardis_flightloop"
+    ]
+  }
+}

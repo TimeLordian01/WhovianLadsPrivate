@@ -108,7 +108,6 @@ dependencies {
     compileOnly fg.deobf("mezz.jei:jei-${jei_version}:api")
     runtimeOnly fg.deobf("mezz.jei:jei-${jei_version}")
     implementation fg.deobf("com.gitlab.Spectre0987:TardisMod-1-14:1.5.4")
-    //implementation fg.deobf("com.github.mistersecret312:TAdditions:3.0") FIND OUT HOW TO DO THIS
     // You may put jars on which you depend on in ./libs or you may define them like so..
     // compile "some.group:artifact:version:classifier"
     // compile "some.group:artifact:version"

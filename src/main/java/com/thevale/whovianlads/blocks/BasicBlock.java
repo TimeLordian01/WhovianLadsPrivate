@@ -9,6 +9,7 @@ public class BasicBlock extends Block {
     public BasicBlock(Properties properties) {
         super(AbstractBlock.Properties.create(Material.WOOD)
                 .harvestLevel(2)
-                .harvestTool(ToolType.PICKAXE));
+                .harvestTool(ToolType.PICKAXE)
+                .hardnessAndResistance(1,1));
     }
 }

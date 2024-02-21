@@ -5,8 +5,13 @@ com/thevale/whovianlads/util/EnumDoorTypes.java
  com.thevale.whovianlads.util.EnumDoorTypes$1
 com/thevale/whovianlads/blocks/VConsoleBlock.java
  com.thevale.whovianlads.blocks.VConsoleBlock
+com/thevale/whovianlads/client/models/exteriors/AlfieHudolinExterior.java
+ com.thevale.whovianlads.client.models.exteriors.AlfieHudolinExterior
+ com.thevale.whovianlads.client.models.exteriors.AlfieHudolinExterior$1
 com/thevale/whovianlads/tileentities/ValeTiles.java
  com.thevale.whovianlads.tileentities.ValeTiles
+com/thevale/whovianlads/client/renders/exteriors/AlfieHudolinRender.java
+ com.thevale.whovianlads.client.renders.exteriors.AlfieHudolinRender
 com/thevale/whovianlads/blocks/BrachDoorBlock.java
  com.thevale.whovianlads.blocks.BrachDoorBlock
 com/thevale/whovianlads/tileentities/exteriors/WardrobeTile.java
@@ -35,6 +40,8 @@ com/thevale/whovianlads/client/models/interiordoors/BrackolinInteriorDoor.java
  com.thevale.whovianlads.client.models.interiordoors.BrackolinInteriorDoor$1
 com/thevale/whovianlads/items/ValeItems.java
  com.thevale.whovianlads.items.ValeItems
+com/thevale/whovianlads/sounds/ValeSounds.java
+ com.thevale.whovianlads.sounds.ValeSounds
 com/thevale/whovianlads/registry/ValeConsoleRegistry.java
  com.thevale.whovianlads.registry.ValeConsoleRegistry
 com/thevale/whovianlads/registry/ValeModelRegistry.java
@@ -68,6 +75,8 @@ com/thevale/whovianlads/util/WhovianLadsItemGroup.java
  com.thevale.whovianlads.util.WhovianLadsItemGroup$1
 com/thevale/whovianlads/texturevariants/TextureVariants.java
  com.thevale.whovianlads.texturevariants.TextureVariants
+com/thevale/whovianlads/registry/ValeSoundSchemeRegistry.java
+ com.thevale.whovianlads.registry.ValeSoundSchemeRegistry
 com/thevale/whovianlads/whovianlads.java
  com.thevale.whovianlads.whovianlads
  com.thevale.whovianlads.whovianlads$RegistryEvents
@@ -82,6 +91,11 @@ com/thevale/whovianlads/client/renders/exteriors/BlueDoctorRender.java
 com/thevale/whovianlads/tileentities/exteriors/RaniTile.java
  com.thevale.whovianlads.tileentities.exteriors.RaniTile
  com.thevale.whovianlads.tileentities.exteriors.RaniTile$1
+com/thevale/whovianlads/sounds/SoundSchemeVale.java
+ com.thevale.whovianlads.sounds.SoundSchemeVale
+com/thevale/whovianlads/tileentities/exteriors/AlfieHudolinTile.java
+ com.thevale.whovianlads.tileentities.exteriors.AlfieHudolinTile
+ com.thevale.whovianlads.tileentities.exteriors.AlfieHudolinTile$1
 com/thevale/whovianlads/client/models/interiordoors/RaniInteriorDoor.java
  com.thevale.whovianlads.client.models.interiordoors.RaniInteriorDoor
  com.thevale.whovianlads.client.models.interiordoors.RaniInteriorDoor$1

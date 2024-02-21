@@ -40,6 +40,11 @@ public class ValeTiles {
             TILES.register("console_brackolin", () ->registerTiles(BrackolinConsoleTile::new,
                     ValeBlocks.console_brackolin.get()));
 
+    public static final RegistryObject<TileEntityType<AlfieHudolinTile>> exterior_alfiehudolin =
+            TILES.register("exterior_alfiehudolin", () ->registerTiles(AlfieHudolinTile::new,
+                    ValeBlocks.exterior_alfiehudolin.get()));
+
+
 
 
 

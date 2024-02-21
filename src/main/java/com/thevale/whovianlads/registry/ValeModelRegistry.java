@@ -14,6 +14,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.tardis.mod.client.models.interiordoors.TTCapsuleInteriorModel;
 
 @Mod.EventBusSubscriber(value = Dist.CLIENT, modid = whovianlads.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 
@@ -45,6 +46,8 @@ public class ValeModelRegistry {
             EnumDoorTypes.OLWARRIOR.setInteriorDoorModel(new OlwarriorInteriorDoor());
         ClientRegistry.bindTileEntityRenderer(ValeTiles.exterior_bluedoctor.get(), BlueDoctorRender::new);
              EnumDoorTypes.BLUEDOCTOR.setInteriorDoorModel(new BlueDoctorInteriorDoor());
+        ClientRegistry.bindTileEntityRenderer(ValeTiles.exterior_alfiehudolin.get(), AlfieHudolinRender::new);
+        EnumDoorTypes.BRACKOLIN.setInteriorDoorModel(new TTCapsuleInteriorModel());
 
         //Consoles
         ClientRegistry.bindTileEntityRenderer(ValeTiles.console_brackolin.get(), BrackolinConsoleRender::new);

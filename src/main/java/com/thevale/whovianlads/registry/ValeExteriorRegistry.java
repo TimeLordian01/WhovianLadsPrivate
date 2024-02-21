@@ -39,4 +39,8 @@ public class ValeExteriorRegistry {
                     true, EnumDoorTypes.BLUEDOCTOR, DoorSounds.WOOD,
                     new ResourceLocation(whovianlads.MODID, "textures/gui/exteriors/bluedoctorexterior.png")));
 
+    public static final RegistryObject<AbstractExterior> ALFIEHUDOLIN = EXTERIORS.register("alfiehudolin",
+            () -> new TwoBlockBasicExterior(() -> ValeBlocks.exterior_alfiehudolin.get().getDefaultState(),
+                    true, EnumDoorTypes.BRACKOLIN, DoorSounds.WOOD,
+                    new ResourceLocation(whovianlads.MODID, "textures/gui/exteriors/alfiehudolin.png"), TextureVariants.ALFIEHUDOLIN));
 }

@@ -19,7 +19,7 @@
   "item.whovianlads.tezarak_coin" : "Tezerak Coin",
 
 
-  "block.whovianlads.ars_egg_old" : "1.12 ARS Egg",
+  "block.whovianlads.ars_egg_old" : "Mini - ARS Tree",
   "block.whovianlads.artron_bank_old" : "1.12 Artron Bank (Decorative)",
   "block.whovianlads.foodmachine_old" : "1.12 Food Machine",
   "block.whovianlads.structure_panel_old" : "1.12 Structure Panel",
@@ -29,6 +29,7 @@
 
   "block.whovianlads.megalos_slab" : "1.12 Meglos Slab",
   "block.whovianlads.megalos" : "1.12 Meglos",
+  "block.whovianlads.megalos_stripe" : "1.12 Meglos Stripe",
   "block.whovianlads.megalos_floor" : "1.12 Meglos Floor",
   "block.whovianlads.megalos_white_full_roundel" : "1.12 Meglos Full Roundel (White)",
   "block.whovianlads.megalos_white_half_roundel" : "1.12 Meglos Half Roundel (White)",
@@ -72,6 +73,7 @@
   "exterior.tardis.olwarrior" : "Ol' warrior",
   "exterior.tardis.wardrobe" : "Wardrobe",
   "exterior.tardis.rani" : "Rani",
+  "exterior.tardis.bluedoctor" : "Blue Doctor Exterior",
 
   "console.whovianlads.brackolin" : "Brackolin",
 

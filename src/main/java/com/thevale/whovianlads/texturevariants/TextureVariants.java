@@ -30,6 +30,11 @@ public class TextureVariants {
     public static final TexVariant[] BLUEDOCTOR = {
             new TexVariant(new ResourceLocation(whovianlads.MODID, "textures/exteriors/bluedoctor/bluedoctorexterior.png"),"bluedoctor.normal")
     };
+
+    public static final TexVariant[] ALFIEHUDOLIN = {
+            new TexVariant(new ResourceLocation(whovianlads.MODID, "textures/exteriors/alfie/hudolin.png"),"alfie.normal"),
+            new TexVariant(new ResourceLocation(whovianlads.MODID, "textures/exteriors/alfie/hudolinlit.png"),"alfie.lit")
+    };
     //Consoles
     public static final TexVariant[] VALE = {
             new TexVariant(new ResourceLocation(whovianlads.MODID,"textures/consoles/valeconsole.png"), "vale.normal"),

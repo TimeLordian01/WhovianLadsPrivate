@@ -1,0 +1,64 @@
+---- Minecraft Crash Report ----
+// Surprise! Haha. Well, this is awkward.
+
+Time: 1/13/24 7:09 PM
+Description: Exception in server tick loop
+
+java.lang.NoSuchFieldError: field_210820_a
+	at com.sk89q.worldedit.forge.ForgeDataFixer.<clinit>(ForgeDataFixer.java:181) ~[worldedit:?] {re:classloading}
+	at com.sk89q.worldedit.forge.ForgePlatform.<init>(ForgePlatform.java:72) ~[worldedit:?] {re:classloading}
+	at com.sk89q.worldedit.forge.ForgeWorldEdit.setupPlatform(ForgeWorldEdit.java:142) ~[worldedit:?] {re:classloading}
+	at com.sk89q.worldedit.forge.ForgeWorldEdit.serverStarted(ForgeWorldEdit.java:209) ~[worldedit:?] {re:classloading}
+	at net.minecraftforge.eventbus.ASMEventHandler_11_ForgeWorldEdit_serverStarted_FMLServerStartedEvent.invoke(.dynamic) ~[?:?] {}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.fml.server.ServerLifecycleHooks.handleServerStarted(ServerLifecycleHooks.java:92) ~[forge:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:622) ~[forge:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[forge:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_392] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_392, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+	Memory: 1801738760 bytes (1718 MB) / 3279945728 bytes (3128 MB) up to 7602176000 bytes (7250 MB)
+	CPUs: 12
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	ModLauncher: 8.1.3+8.1.3+main-8.1.x.c94d18ec
+	ModLauncher launch target: fmluserdevclient
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/mixin-0.8.4.jar mixin PLUGINSERVICE 
+		/eventbus-4.0.0.jar eventbus PLUGINSERVICE 
+		/forge-1.16.5-36.2.39_mapped_snapshot_20201028-1.16.3-launcher.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.39_mapped_snapshot_20201028-1.16.3-launcher.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.5-36.2.39_mapped_snapshot_20201028-1.16.3-launcher.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.39_mapped_snapshot_20201028-1.16.3-launcher.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.4.jar mixin TRANSFORMATIONSERVICE 
+		/forge-1.16.5-36.2.39_mapped_snapshot_20201028-1.16.3-launcher.jar fml TRANSFORMATIONSERVICE 
+	FML: 36.2
+	Forge: net.minecraftforge:36.2.39
+	FML Language Providers: 
+		javafml@36.2
+		minecraft@1
+	Mod List: 
+		client-extra.jar                                  |Minecraft                     |minecraft                     |1.16.5              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		TardisMod-1-14-1.5.4_mapped_snapshot_20201028-1.16|Tardis Mod                    |tardis                        |1.5.4               |DONE      |Manifest: NOSIGNATURE
+		main                                              |WhoviansRest                  |whovianlads                   |2.0                 |DONE      |Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.39_mapped_snapshot_20201028-1.16|Forge                         |forge                         |36.2.29             |DONE      |Manifest: NOSIGNATURE
+		worldedit-mod-7.2.5-dist.jar                      |WorldEdit                     |worldedit                     |7.2.5+57d5ac9       |DONE      |Manifest: NOSIGNATURE
+		jei-1.16.4-7.6.0.62_mapped_snapshot_20201028-1.16.|Just Enough Items             |jei                           |7.6.0.62            |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: e893185a-c02a-41bf-b7cb-508a35066ada
+	Player Count: 0 / 8; []
+	Data Packs: vanilla, mod:tardis, mod:whovianlads, mod:forge, mod:worldedit (incompatible), mod:jei
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'

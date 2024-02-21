@@ -33,6 +33,8 @@ public class ValeBlocks {
             () -> setUpBlock(new ExteriorBlock()), false);
     public static RegistryObject<Block> exterior_bluedoctor = register("exterior_bluedoctor",
             () -> setUpBlock(new ExteriorBlock()), false);
+    public static RegistryObject<Block> exterior_alfiehudolin = register("exterior_alfiehudolin",
+            () -> setUpBlock(new ExteriorBlock()), false);
 
 
 
@@ -93,6 +95,8 @@ public class ValeBlocks {
 
     public static RegistryObject<Block> megalos_block = register("megalos",
             () -> new BasicBlock(AbstractBlock.Properties.create(Material.WOOD)));
+    public static RegistryObject<Block> megalos_stripe = register("megalos_stripe",
+            () -> new BasicBlock(AbstractBlock.Properties.create(Material.IRON)));
 
     public static RegistryObject<Block> megalos_floor = register("megalos_floor",
             () -> new BasicBlock(AbstractBlock.Properties.create(Material.WOOD)));
@@ -131,6 +135,7 @@ public class ValeBlocks {
 
     public static RegistryObject<Block> megalos_pillar_top = register("megalos_pillar_top",
             () -> new BasicBlock(AbstractBlock.Properties.create(Material.IRON)));
+
 
 
 
