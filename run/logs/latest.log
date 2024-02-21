@@ -1668,3 +1668,31 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [21Feb2024 09:07:26.202] [Render thread/INFO] [tardis/]: Cleared Tardis Like Registry!
 [21Feb2024 09:07:26.202] [Render thread/INFO] [tardis/]: Registered default Tardis Likes
 [21Feb2024 09:07:26.203] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 7 advancements
+[21Feb2024 09:08:05.868] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[21Feb2024 09:08:05.876] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[21Feb2024 09:08:05.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[21Feb2024 09:08:05.883] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[21Feb2024 09:08:05.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21Feb2024 09:08:05.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21Feb2024 09:08:05.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21Feb2024 09:08:05.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[21Feb2024 09:08:06.072] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[21Feb2024 09:08:06.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[21Feb2024 09:08:06.072] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21Feb2024 09:08:06.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[21Feb2024 09:08:06.073] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21Feb2024 09:08:06.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/tardis:moon
+[21Feb2024 09:08:06.073] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[21Feb2024 09:08:06.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/tardis:space
+[21Feb2024 09:08:06.075] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (space): All chunks are saved
+[21Feb2024 09:08:06.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/tardis:vortex
+[21Feb2024 09:08:06.075] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (vortex): All chunks are saved
+[21Feb2024 09:08:06.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/tardis:f11f0cf2-1aec-4263-91e8-061f3b3b4244
+[21Feb2024 09:08:06.362] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (f11f0cf2-1aec-4263-91e8-061f3b3b4244): All chunks are saved
+[21Feb2024 09:08:06.385] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[21Feb2024 09:08:06.412] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21Feb2024 09:08:06.412] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21Feb2024 09:08:06.412] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[21Feb2024 09:08:06.412] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (space): All chunks are saved
+[21Feb2024 09:08:06.412] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (vortex): All chunks are saved
+[21Feb2024 09:08:06.423] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (f11f0cf2-1aec-4263-91e8-061f3b3b4244): All chunks are saved
