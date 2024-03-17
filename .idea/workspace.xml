@@ -109,7 +109,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/haydn/IdeaProjects/WhovianLads/src/main/resources/assets/whovianlads/sounds/tardis",
+    "last_opened_file_path": "C:/Users/haydn/IdeaProjects/WhovianLads/src/main/resources/assets/whovianlads/blockstates",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -118,11 +118,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\blockstates" />
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\data\whovianlads\recipes\spectrometer\exteriors" />
+      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\data\whovianlads\unlock_schematics\exteriors" />
       <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\sounds\tardis" />
       <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\" />
-      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\blockstates" />
-      <recent name="C:\Users\haydn\.gradle\caches\forge_gradle\deobf_dependencies\com\gitlab\Spectre0987\TardisMod-1-14\1.5.4_mapped_snapshot_20201028-1.16.3\TardisMod-1-14-1.5.4_mapped_snapshot_20201028-1.16.3.jar!\assets\tardis\textures\block\technology" />
-      <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\assets\whovianlads\models\item" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\haydn\IdeaProjects\WhovianLads\src\main\resources\data\tardis\tags" />

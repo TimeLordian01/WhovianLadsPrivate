@@ -69,13 +69,14 @@
   "block.whovianlads.toyota_upper_wall_pattern_top_right" : "1.12 Toyota Upper Wall Pattern 6",
 
 
-  "exterior.tardis.brackolin" : "Brackolin",
-  "exterior.tardis.olwarrior" : "Ol' warrior",
-  "exterior.tardis.wardrobe" : "Wardrobe",
-  "exterior.tardis.rani" : "Rani",
+  "exterior.tardis.brackolin" : "Brackolin Exterior",
+  "exterior.tardis.olwarrior" : "Ol' warrior Exterior",
+  "exterior.tardis.wardrobe" : "Wardrobe Exterior",
+  "exterior.tardis.rani" : "Rani Exterior",
   "exterior.tardis.bluedoctor" : "Blue Doctor Exterior",
+  "exterior.tardis.hartnell112" : "1.12 Hartnell Exterior",
 
-  "console.whovianlads.brackolin" : "Brackolin",
+  "console.whovianlads.brackolin" : "Brackolin Console",
 
   "itemGroup.whoviansRestCreativeTab" : "Whovians Rest"
 

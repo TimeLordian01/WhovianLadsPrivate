@@ -15,6 +15,7 @@ import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.tardis.mod.client.models.interiordoors.TTCapsuleInteriorModel;
+import net.tardis.mod.client.models.interiordoors.TrunkInteriorModel;
 
 @Mod.EventBusSubscriber(value = Dist.CLIENT, modid = whovianlads.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 
@@ -32,6 +33,7 @@ public class ValeModelRegistry {
             RenderTypeLookup.setRenderLayer(ValeBlocks.exterior_rani.get(), RenderType.getTranslucent());
             RenderTypeLookup.setRenderLayer(ValeBlocks.exterior_olwarrior.get(), RenderType.getTranslucent());
             RenderTypeLookup.setRenderLayer(ValeBlocks.exterior_bluedoctor.get(), RenderType.getTranslucent());
+            RenderTypeLookup.setRenderLayer(ValeBlocks.exterior_classic_hartnell.get(), RenderType.getTranslucent());
                 });
 
         //ClientRegistry
@@ -46,8 +48,9 @@ public class ValeModelRegistry {
             EnumDoorTypes.OLWARRIOR.setInteriorDoorModel(new OlwarriorInteriorDoor());
         ClientRegistry.bindTileEntityRenderer(ValeTiles.exterior_bluedoctor.get(), BlueDoctorRender::new);
              EnumDoorTypes.BLUEDOCTOR.setInteriorDoorModel(new BlueDoctorInteriorDoor());
-        ClientRegistry.bindTileEntityRenderer(ValeTiles.exterior_alfiehudolin.get(), AlfieHudolinRender::new);
-        EnumDoorTypes.BRACKOLIN.setInteriorDoorModel(new TTCapsuleInteriorModel());
+        ClientRegistry.bindTileEntityRenderer(ValeTiles.exterior_classic_hartnell.get(), Hartnell112Render::new);
+        EnumDoorTypes.HARTNELL.setInteriorDoorModel(new TTCapsuleInteriorModel());
+
 
         //Consoles
         ClientRegistry.bindTileEntityRenderer(ValeTiles.console_brackolin.get(), BrackolinConsoleRender::new);

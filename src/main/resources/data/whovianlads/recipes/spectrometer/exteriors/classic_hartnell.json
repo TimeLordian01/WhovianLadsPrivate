@@ -1,0 +1,9 @@
+{
+  "type": "tardis:spectrometer",
+  "processing_ticks": 200,
+  "download_ticks": 200,
+  "ingredient": {
+    "item": "whovianlads:artron_bank_old"
+  },
+  "result": "whovianlads:exteriors/classic_hartnell"
+}

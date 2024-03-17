@@ -3,15 +3,13 @@ com/thevale/whovianlads/tileentities/consoles/BrackolinConsoleTile.java
 com/thevale/whovianlads/util/EnumDoorTypes.java
  com.thevale.whovianlads.util.EnumDoorTypes
  com.thevale.whovianlads.util.EnumDoorTypes$1
+com/thevale/whovianlads/tileentities/exteriors/Hartnell112Tile.java
+ com.thevale.whovianlads.tileentities.exteriors.Hartnell112Tile
+ com.thevale.whovianlads.tileentities.exteriors.Hartnell112Tile$1
 com/thevale/whovianlads/blocks/VConsoleBlock.java
  com.thevale.whovianlads.blocks.VConsoleBlock
-com/thevale/whovianlads/client/models/exteriors/AlfieHudolinExterior.java
- com.thevale.whovianlads.client.models.exteriors.AlfieHudolinExterior
- com.thevale.whovianlads.client.models.exteriors.AlfieHudolinExterior$1
 com/thevale/whovianlads/tileentities/ValeTiles.java
  com.thevale.whovianlads.tileentities.ValeTiles
-com/thevale/whovianlads/client/renders/exteriors/AlfieHudolinRender.java
- com.thevale.whovianlads.client.renders.exteriors.AlfieHudolinRender
 com/thevale/whovianlads/blocks/BrachDoorBlock.java
  com.thevale.whovianlads.blocks.BrachDoorBlock
 com/thevale/whovianlads/tileentities/exteriors/WardrobeTile.java
@@ -30,6 +28,8 @@ com/thevale/whovianlads/client/models/exteriors/WardrobeExterior.java
  com.thevale.whovianlads.client.models.exteriors.WardrobeExterior$1
 com/thevale/whovianlads/blocks/BasicBlock.java
  com.thevale.whovianlads.blocks.BasicBlock
+com/thevale/whovianlads/client/renders/consoles/BrackolinConsoleRender.java
+ com.thevale.whovianlads.client.renders.consoles.BrackolinConsoleRender
 com/thevale/whovianlads/client/models/exteriors/BlueDoctorExterior.java
  com.thevale.whovianlads.client.models.exteriors.BlueDoctorExterior
  com.thevale.whovianlads.client.models.exteriors.BlueDoctorExterior$1
@@ -91,11 +91,11 @@ com/thevale/whovianlads/client/renders/exteriors/BlueDoctorRender.java
 com/thevale/whovianlads/tileentities/exteriors/RaniTile.java
  com.thevale.whovianlads.tileentities.exteriors.RaniTile
  com.thevale.whovianlads.tileentities.exteriors.RaniTile$1
+com/thevale/whovianlads/tileentities/exteriors/BrackolinTile.java
+ com.thevale.whovianlads.tileentities.exteriors.BrackolinTile
+ com.thevale.whovianlads.tileentities.exteriors.BrackolinTile$1
 com/thevale/whovianlads/sounds/SoundSchemeVale.java
  com.thevale.whovianlads.sounds.SoundSchemeVale
-com/thevale/whovianlads/tileentities/exteriors/AlfieHudolinTile.java
- com.thevale.whovianlads.tileentities.exteriors.AlfieHudolinTile
- com.thevale.whovianlads.tileentities.exteriors.AlfieHudolinTile$1
 com/thevale/whovianlads/client/models/interiordoors/RaniInteriorDoor.java
  com.thevale.whovianlads.client.models.interiordoors.RaniInteriorDoor
  com.thevale.whovianlads.client.models.interiordoors.RaniInteriorDoor$1
@@ -106,8 +106,8 @@ com/thevale/whovianlads/registry/ValeExteriorRegistry.java
  com.thevale.whovianlads.registry.ValeExteriorRegistry
 com/thevale/whovianlads/client/renders/exteriors/WardrobeRender.java
  com.thevale.whovianlads.client.renders.exteriors.WardrobeRender
-com/thevale/whovianlads/tileentities/exteriors/BrackolinTile.java
- com.thevale.whovianlads.tileentities.exteriors.BrackolinTile
- com.thevale.whovianlads.tileentities.exteriors.BrackolinTile$1
-com/thevale/whovianlads/client/renders/consoles/BrackolinConsoleRender.java
- com.thevale.whovianlads.client.renders.consoles.BrackolinConsoleRender
+com/thevale/whovianlads/client/models/exteriors/Hartnell112.java
+ com.thevale.whovianlads.client.models.exteriors.Hartnell112
+ com.thevale.whovianlads.client.models.exteriors.Hartnell112$1
+com/thevale/whovianlads/client/renders/exteriors/Hartnell112Render.java
+ com.thevale.whovianlads.client.renders.exteriors.Hartnell112Render

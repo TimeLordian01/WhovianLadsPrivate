@@ -3,6 +3,7 @@ package com.thevale.whovianlads.tileentities;
 
 import com.google.common.base.Supplier;
 import com.thevale.whovianlads.blocks.ValeBlocks;
+import com.thevale.whovianlads.client.models.exteriors.Hartnell112;
 import com.thevale.whovianlads.tileentities.consoles.BrackolinConsoleTile;
 import com.thevale.whovianlads.tileentities.exteriors.*;
 import com.thevale.whovianlads.whovianlads;
@@ -40,10 +41,9 @@ public class ValeTiles {
             TILES.register("console_brackolin", () ->registerTiles(BrackolinConsoleTile::new,
                     ValeBlocks.console_brackolin.get()));
 
-    public static final RegistryObject<TileEntityType<AlfieHudolinTile>> exterior_alfiehudolin =
-            TILES.register("exterior_alfiehudolin", () ->registerTiles(AlfieHudolinTile::new,
-                    ValeBlocks.exterior_alfiehudolin.get()));
-
+    public static final RegistryObject<TileEntityType<Hartnell112Tile>> exterior_classic_hartnell =
+            TILES.register("exterior_classic_hartnell", () ->registerTiles(Hartnell112Tile::new,
+                    ValeBlocks.exterior_classic_hartnell.get()));
 
 
 

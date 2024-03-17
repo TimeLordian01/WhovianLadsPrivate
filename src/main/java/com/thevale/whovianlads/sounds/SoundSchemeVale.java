@@ -13,7 +13,7 @@ public class SoundSchemeVale extends SoundSchemeBase {
 
     @Override
     public int getLandTime() {
-        return 260;
+        return 400;
     }
 
     @Override

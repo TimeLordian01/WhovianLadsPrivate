@@ -4,6 +4,7 @@ import com.thevale.whovianlads.blocks.ValeBlocks;
 import com.thevale.whovianlads.items.ValeItems;
 import com.thevale.whovianlads.registry.ValeConsoleRegistry;
 import com.thevale.whovianlads.registry.ValeExteriorRegistry;
+import com.thevale.whovianlads.registry.ValeSoundSchemeRegistry;
 import com.thevale.whovianlads.sounds.ValeSounds;
 import com.thevale.whovianlads.tileentities.ValeTiles;
 import net.minecraft.block.Block;
@@ -32,6 +33,7 @@ public class whovianlads {
         ValeTiles.TILES.register(modBus);
         ValeExteriorRegistry.EXTERIORS.register(modBus);
         ValeSounds.SOUND_EVENTS.register(modBus);
+        ValeSoundSchemeRegistry.SOUND_SCHEMES.register(modBus);
     }
 
 

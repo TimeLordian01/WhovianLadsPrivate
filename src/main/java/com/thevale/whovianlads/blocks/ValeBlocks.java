@@ -33,9 +33,9 @@ public class ValeBlocks {
             () -> setUpBlock(new ExteriorBlock()), false);
     public static RegistryObject<Block> exterior_bluedoctor = register("exterior_bluedoctor",
             () -> setUpBlock(new ExteriorBlock()), false);
-    public static RegistryObject<Block> exterior_alfiehudolin = register("exterior_alfiehudolin",
-            () -> setUpBlock(new ExteriorBlock()), false);
 
+    public static RegistryObject<Block> exterior_classic_hartnell = register("exterior_classic_hartnell",
+            () -> setUpBlock(new ExteriorBlock()), false);
 
 
 
